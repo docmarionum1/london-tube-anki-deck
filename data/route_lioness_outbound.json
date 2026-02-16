@@ -1,0 +1,1694 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+  "lineId": "lioness",
+  "lineName": "Lioness",
+  "direction": "outbound",
+  "isOutboundOnly": false,
+  "mode": "overground",
+  "lineStrings": [
+    "[[[-0.133924,51.528136],[-0.178878,51.541432],[-0.192237,51.537277],[-0.204985,51.533966],[-0.225088,51.53054],[-0.244548,51.532497],[-0.257667,51.536289],[-0.275828,51.544111],[-0.296433,51.552325],[-0.303984,51.562596],[-0.308462,51.570214],[-0.316981,51.581802],[-0.334571,51.592169],[-0.35722,51.602649],[-0.368601,51.609417],[-0.385939,51.628351],[-0.385229,51.645894],[-0.391711,51.652655],[-0.396517,51.663529]]]"
+  ],
+  "stations": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCRPNDPK",
+      "icsId": "1001049",
+      "topMostParentId": "910GCRPNDPK",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "7",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCRPNDPK",
+      "name": "Carpenders Park Rail Station",
+      "lat": 51.628351,
+      "lon": -0.385939
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHEDSTNL",
+      "icsId": "1001146",
+      "topMostParentId": "910GHEDSTNL",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "5",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHEDSTNL",
+      "name": "Headstone Lane Rail Station",
+      "lat": 51.602649,
+      "lon": -0.35722
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHTCHEND",
+      "icsId": "1001142",
+      "topMostParentId": "910GHTCHEND",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "6",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHTCHEND",
+      "name": "Hatch End Rail Station",
+      "lat": 51.609417,
+      "lon": -0.368601
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GKLBRNHR",
+      "icsId": "1001170",
+      "topMostParentId": "910GKLBRNHR",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GKLBRNHR",
+      "name": "Kilburn High Road Rail Station",
+      "lat": 51.537277,
+      "lon": -0.192237
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSHMPSTD",
+      "icsId": "1001260",
+      "topMostParentId": "910GSHMPSTD",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GSHMPSTD",
+      "name": "South Hampstead Rail Station",
+      "lat": 51.541432,
+      "lon": -0.178878
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GWATFDHS",
+      "icsId": "1001316",
+      "topMostParentId": "910GWATFDHS",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "8",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GWATFDHS",
+      "name": "Watford High Street Rail Station",
+      "lat": 51.652655,
+      "lon": -0.391711
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1001041",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "TransportInterchange",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "142",
+          "name": "142",
+          "uri": "/Line/142",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "258",
+          "name": "258",
+          "uri": "/Line/258",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains",
+          "uri": "/Line/west-midlands-trains",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBBSH",
+      "name": "Bushey",
+      "lat": 51.645582,
+      "lon": -0.384752
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000077",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "1",
+          "name": "1",
+          "uri": "/Line/1",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "253",
+          "name": "253",
+          "uri": "/Line/253",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "30",
+          "name": "30",
+          "uri": "/Line/30",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "68",
+          "name": "68",
+          "uri": "/Line/68",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "91",
+          "name": "91",
+          "uri": "/Line/91",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast",
+          "uri": "/Line/avanti-west-coast",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n20",
+          "name": "N20",
+          "uri": "/Line/n20",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n253",
+          "name": "N253",
+          "uri": "/Line/n253",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n5",
+          "name": "N5",
+          "uri": "/Line/n5",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n91",
+          "name": "N91",
+          "uri": "/Line/n91",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "northern",
+          "name": "Northern",
+          "uri": "/Line/northern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "victoria",
+          "name": "Victoria",
+          "uri": "/Line/victoria",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains",
+          "uri": "/Line/west-midlands-trains",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBEUS",
+      "name": "Euston",
+      "lat": 51.527365,
+      "lon": -0.132754
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000100",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBHDN",
+      "name": "Harlesden",
+      "lat": 51.536305,
+      "lon": -0.257774
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000101",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "5",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains",
+          "uri": "/Line/west-midlands-trains",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBHRW",
+      "name": "Harrow & Wealdstone",
+      "lat": 51.592216,
+      "lon": -0.334896
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000122",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBKNL",
+      "name": "Kensal Green",
+      "lat": 51.530545,
+      "lon": -0.22505
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000124",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBKNT",
+      "name": "Kenton",
+      "lat": 51.581786,
+      "lon": -0.316946
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000163",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBNWB",
+      "name": "North Wembley",
+      "lat": 51.56258,
+      "lon": -0.303992
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000186",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "206",
+          "name": "206",
+          "uri": "/Line/206",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBQPW",
+      "name": "Queen's Park",
+      "lat": 51.534443,
+      "lon": -0.204882
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000224",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBSBP",
+      "name": "Stonebridge Park",
+      "lat": 51.544041,
+      "lon": -0.275859
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000213",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBSOK",
+      "name": "South Kenton",
+      "lat": 51.570229,
+      "lon": -0.308448
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1001317",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "TransportInterchange",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast",
+          "uri": "/Line/avanti-west-coast",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains",
+          "uri": "/Line/west-midlands-trains",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBWFJ",
+      "name": "Watford Junction",
+      "lat": 51.663908,
+      "lon": -0.395928
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000271",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2+3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBWIJ",
+      "name": "Willesden Junction",
+      "lat": 51.532556,
+      "lon": -0.243006
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000256",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBWMB",
+      "name": "Wembley Central",
+      "lat": 51.55232,
+      "lon": -0.296642
+    }
+  ],
+  "stopPointSequences": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "lioness",
+      "lineName": "Lioness",
+      "direction": "outbound",
+      "branchId": 1,
+      "nextBranchIds": [],
+      "prevBranchIds": [],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBEUS",
+          "stationId": "910GEUSTON",
+          "icsId": "1000077",
+          "topMostParentId": "HUBEUS",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "avanti-west-coast",
+              "name": "Avanti West Coast",
+              "uri": "/Line/avanti-west-coast",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "west-midlands-trains",
+              "name": "West Midlands Trains",
+              "uri": "/Line/west-midlands-trains",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GEUSTON",
+          "name": "London Euston Rail Station",
+          "lat": 51.528136,
+          "lon": -0.133924
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GSHMPSTD",
+          "icsId": "1001260",
+          "topMostParentId": "910GSHMPSTD",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSHMPSTD",
+          "name": "South Hampstead Rail Station",
+          "lat": 51.541432,
+          "lon": -0.178878
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GKLBRNHR",
+          "icsId": "1001170",
+          "topMostParentId": "910GKLBRNHR",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GKLBRNHR",
+          "name": "Kilburn High Road Rail Station",
+          "lat": 51.537277,
+          "lon": -0.192237
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBQPW",
+          "stationId": "910GQPRK",
+          "icsId": "1000186",
+          "topMostParentId": "HUBQPW",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GQPRK",
+          "name": "Queens Park (London) Rail Station",
+          "lat": 51.533966,
+          "lon": -0.204985
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBKNL",
+          "stationId": "910GKENSLG",
+          "icsId": "1000122",
+          "topMostParentId": "HUBKNL",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GKENSLG",
+          "name": "Kensal Green Rail Station",
+          "lat": 51.53054,
+          "lon": -0.225088
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWIJ",
+          "stationId": "910GWLSDJHL",
+          "icsId": "1000271",
+          "topMostParentId": "HUBWIJ",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2+3",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWLSDJHL",
+          "name": "Willesden Junction Rail Station",
+          "lat": 51.532497,
+          "lon": -0.244548
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBHDN",
+          "stationId": "910GHARLSDN",
+          "icsId": "1000100",
+          "topMostParentId": "HUBHDN",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHARLSDN",
+          "name": "Harlesden Rail Station",
+          "lat": 51.536289,
+          "lon": -0.257667
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBSBP",
+          "stationId": "910GSTNBGPK",
+          "icsId": "1000224",
+          "topMostParentId": "HUBSBP",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSTNBGPK",
+          "name": "Stonebridge Park Rail Station",
+          "lat": 51.544111,
+          "lon": -0.275828
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWMB",
+          "stationId": "910GWMBY",
+          "icsId": "1000256",
+          "topMostParentId": "HUBWMB",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "southern",
+              "name": "Southern",
+              "uri": "/Line/southern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWMBY",
+          "name": "Wembley Central Rail Station",
+          "lat": 51.552325,
+          "lon": -0.296433
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBNWB",
+          "stationId": "910GNWEMBLY",
+          "icsId": "1000163",
+          "topMostParentId": "HUBNWB",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GNWEMBLY",
+          "name": "North Wembley Rail Station",
+          "lat": 51.562596,
+          "lon": -0.303984
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBSOK",
+          "stationId": "910GSKENTON",
+          "icsId": "1000213",
+          "topMostParentId": "HUBSOK",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSKENTON",
+          "name": "South Kenton Rail Station",
+          "lat": 51.570214,
+          "lon": -0.308462
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBKNT",
+          "stationId": "910GKTON",
+          "icsId": "1000124",
+          "topMostParentId": "HUBKNT",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GKTON",
+          "name": "Kenton Rail Station",
+          "lat": 51.581802,
+          "lon": -0.316981
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBHRW",
+          "stationId": "910GHROW",
+          "icsId": "1000101",
+          "topMostParentId": "HUBHRW",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "5",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "southern",
+              "name": "Southern",
+              "uri": "/Line/southern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "west-midlands-trains",
+              "name": "West Midlands Trains",
+              "uri": "/Line/west-midlands-trains",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHROW",
+          "name": "Harrow & Wealdstone Rail Station",
+          "lat": 51.592169,
+          "lon": -0.334571
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHEDSTNL",
+          "icsId": "1001146",
+          "topMostParentId": "910GHEDSTNL",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "5",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHEDSTNL",
+          "name": "Headstone Lane Rail Station",
+          "lat": 51.602649,
+          "lon": -0.35722
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHTCHEND",
+          "icsId": "1001142",
+          "topMostParentId": "910GHTCHEND",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "6",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHTCHEND",
+          "name": "Hatch End Rail Station",
+          "lat": 51.609417,
+          "lon": -0.368601
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCRPNDPK",
+          "icsId": "1001049",
+          "topMostParentId": "910GCRPNDPK",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "7",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCRPNDPK",
+          "name": "Carpenders Park Rail Station",
+          "lat": 51.628351,
+          "lon": -0.385939
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "910GBUSHEY",
+          "stationId": "910GBUSHYDC",
+          "icsId": "1001041",
+          "topMostParentId": "HUBBSH",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "8",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBUSHYDC",
+          "name": "Bushey Rail Station",
+          "lat": 51.645894,
+          "lon": -0.385229
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GWATFDHS",
+          "icsId": "1001316",
+          "topMostParentId": "910GWATFDHS",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "8",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWATFDHS",
+          "name": "Watford High Street Rail Station",
+          "lat": 51.652655,
+          "lon": -0.391711
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "910GWATFDJ",
+          "stationId": "910GWATFJDC",
+          "icsId": "1001317",
+          "topMostParentId": "HUBWFJ",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWATFJDC",
+          "name": "Watford Junction Rail Station",
+          "lat": 51.663529,
+          "lon": -0.396517
+        }
+      ],
+      "serviceType": "Regular"
+    }
+  ],
+  "orderedLineRoutes": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "London Euston  &harr;  Watford Junction ",
+      "naptanIds": [
+        "910GEUSTON",
+        "910GSHMPSTD",
+        "910GKLBRNHR",
+        "910GQPRK",
+        "910GKENSLG",
+        "910GWLSDJHL",
+        "910GHARLSDN",
+        "910GSTNBGPK",
+        "910GWMBY",
+        "910GNWEMBLY",
+        "910GSKENTON",
+        "910GKTON",
+        "910GHROW",
+        "910GHEDSTNL",
+        "910GHTCHEND",
+        "910GCRPNDPK",
+        "910GBUSHYDC",
+        "910GWATFDHS",
+        "910GWATFJDC"
+      ],
+      "serviceType": "Regular"
+    }
+  ]
+}

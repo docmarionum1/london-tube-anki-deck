@@ -1,0 +1,917 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+  "lineId": "suffragette",
+  "lineName": "Suffragette",
+  "direction": "inbound",
+  "isOutboundOnly": false,
+  "mode": "overground",
+  "lineStrings": [
+    "[[[0.11596,51.51953],[0.080903,51.539495],[0.044423,51.549264],[0.026213,51.551693],[0.008416,51.563554],[-0.008051,51.569725],[-0.023846,51.581503],[-0.041236,51.586605],[-0.072103,51.580372],[-0.098144,51.577182],[-0.117149,51.571302],[-0.129513,51.563631],[-0.15077,51.555335]]]"
+  ],
+  "stations": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GBARKRIV",
+      "icsId": "1002272",
+      "topMostParentId": "910GBARKRIV",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GBARKRIV",
+      "name": "Barking Riverside",
+      "lat": 51.51953,
+      "lon": 0.11596
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCROUCHH",
+      "icsId": "1001077",
+      "topMostParentId": "910GCROUCHH",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCROUCHH",
+      "name": "Crouch Hill Rail Station",
+      "lat": 51.571302,
+      "lon": -0.117149
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GGOSPLOK",
+      "icsId": "1001119",
+      "topMostParentId": "910GGOSPLOK",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GGOSPLOK",
+      "name": "Gospel Oak Rail Station",
+      "lat": 51.555335,
+      "lon": -0.15077
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHRGYGL",
+      "icsId": "1001139",
+      "topMostParentId": "910GHRGYGL",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHRGYGL",
+      "name": "Harringay Green Lanes Rail Station",
+      "lat": 51.577182,
+      "lon": -0.098144
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GLEYTNMR",
+      "icsId": "1001178",
+      "topMostParentId": "910GLEYTNMR",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GLEYTNMR",
+      "name": "Leyton Midland Road Rail Station",
+      "lat": 51.569725,
+      "lon": -0.008051
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GLYTNSHR",
+      "icsId": "1001179",
+      "topMostParentId": "910GLYTNSHR",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GLYTNSHR",
+      "name": "Leytonstone High Road Rail Station",
+      "lat": 51.563554,
+      "lon": 0.008416
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSTOTNHM",
+      "icsId": "1001264",
+      "topMostParentId": "910GSTOTNHM",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GSTOTNHM",
+      "name": "South Tottenham Rail Station",
+      "lat": 51.580372,
+      "lon": -0.072103
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GUPRHLWY",
+      "icsId": "1001302",
+      "topMostParentId": "910GUPRHLWY",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GUPRHLWY",
+      "name": "Upper Holloway Rail Station",
+      "lat": 51.563631,
+      "lon": -0.129513
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GWDGRNPK",
+      "icsId": "1001341",
+      "topMostParentId": "910GWDGRNPK",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3+4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GWDGRNPK",
+      "name": "Woodgrange Park Rail Station",
+      "lat": 51.549264,
+      "lon": 0.044423
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GWLTHQRD",
+      "icsId": "1001308",
+      "topMostParentId": "910GWLTHQRD",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GWLTHQRD",
+      "name": "Walthamstow Queens Road Rail Station",
+      "lat": 51.581503,
+      "lon": -0.023846
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GWNSTDPK",
+      "icsId": "1001312",
+      "topMostParentId": "910GWNSTDPK",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GWNSTDPK",
+      "name": "Wanstead Park Rail Station",
+      "lat": 51.551693,
+      "lon": 0.026213
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000024",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "victoria",
+          "name": "Victoria",
+          "uri": "/Line/victoria",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBBHO",
+      "name": "Blackhorse Road",
+      "lat": 51.586768,
+      "lon": -0.041185
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000015",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "c2c",
+          "name": "c2c",
+          "uri": "/Line/c2c",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBBKG",
+      "name": "Barking",
+      "lat": 51.539413,
+      "lon": 0.080988
+    }
+  ],
+  "stopPointSequences": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "suffragette",
+      "lineName": "Suffragette",
+      "direction": "inbound",
+      "branchId": 0,
+      "nextBranchIds": [],
+      "prevBranchIds": [],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GBARKRIV",
+          "icsId": "1002272",
+          "topMostParentId": "910GBARKRIV",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBARKRIV",
+          "name": "Barking Riverside",
+          "lat": 51.51953,
+          "lon": 0.11596
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBBKG",
+          "stationId": "910GBARKING",
+          "icsId": "1000015",
+          "topMostParentId": "HUBBKG",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "c2c",
+              "name": "c2c",
+              "uri": "/Line/c2c",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBARKING",
+          "name": "Barking Rail Station",
+          "lat": 51.539495,
+          "lon": 0.080903
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GWDGRNPK",
+          "icsId": "1001341",
+          "topMostParentId": "910GWDGRNPK",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3+4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWDGRNPK",
+          "name": "Woodgrange Park Rail Station",
+          "lat": 51.549264,
+          "lon": 0.044423
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GWNSTDPK",
+          "icsId": "1001312",
+          "topMostParentId": "910GWNSTDPK",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWNSTDPK",
+          "name": "Wanstead Park Rail Station",
+          "lat": 51.551693,
+          "lon": 0.026213
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GLYTNSHR",
+          "icsId": "1001179",
+          "topMostParentId": "910GLYTNSHR",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GLYTNSHR",
+          "name": "Leytonstone High Road Rail Station",
+          "lat": 51.563554,
+          "lon": 0.008416
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GLEYTNMR",
+          "icsId": "1001178",
+          "topMostParentId": "910GLEYTNMR",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GLEYTNMR",
+          "name": "Leyton Midland Road Rail Station",
+          "lat": 51.569725,
+          "lon": -0.008051
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GWLTHQRD",
+          "icsId": "1001308",
+          "topMostParentId": "910GWLTHQRD",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWLTHQRD",
+          "name": "Walthamstow Queens Road Rail Station",
+          "lat": 51.581503,
+          "lon": -0.023846
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBBHO",
+          "stationId": "910GBLCHSRD",
+          "icsId": "1000024",
+          "topMostParentId": "HUBBHO",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBLCHSRD",
+          "name": "Blackhorse Road Rail Station",
+          "lat": 51.586605,
+          "lon": -0.041236
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GSTOTNHM",
+          "icsId": "1001264",
+          "topMostParentId": "910GSTOTNHM",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSTOTNHM",
+          "name": "South Tottenham Rail Station",
+          "lat": 51.580372,
+          "lon": -0.072103
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHRGYGL",
+          "icsId": "1001139",
+          "topMostParentId": "910GHRGYGL",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHRGYGL",
+          "name": "Harringay Green Lanes Rail Station",
+          "lat": 51.577182,
+          "lon": -0.098144
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCROUCHH",
+          "icsId": "1001077",
+          "topMostParentId": "910GCROUCHH",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCROUCHH",
+          "name": "Crouch Hill Rail Station",
+          "lat": 51.571302,
+          "lon": -0.117149
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GUPRHLWY",
+          "icsId": "1001302",
+          "topMostParentId": "910GUPRHLWY",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GUPRHLWY",
+          "name": "Upper Holloway Rail Station",
+          "lat": 51.563631,
+          "lon": -0.129513
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GGOSPLOK",
+          "icsId": "1001119",
+          "topMostParentId": "910GGOSPLOK",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GGOSPLOK",
+          "name": "Gospel Oak Rail Station",
+          "lat": 51.555335,
+          "lon": -0.15077
+        }
+      ],
+      "serviceType": "Regular"
+    }
+  ],
+  "orderedLineRoutes": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "Barking Riverside &harr;  Gospel Oak ",
+      "naptanIds": [
+        "910GBARKRIV",
+        "910GBARKING",
+        "910GWDGRNPK",
+        "910GWNSTDPK",
+        "910GLYTNSHR",
+        "910GLEYTNMR",
+        "910GWLTHQRD",
+        "910GBLCHSRD",
+        "910GSTOTNHM",
+        "910GHRGYGL",
+        "910GCROUCHH",
+        "910GUPRHLWY",
+        "910GGOSPLOK"
+      ],
+      "serviceType": "Regular"
+    }
+  ]
+}

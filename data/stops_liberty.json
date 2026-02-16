@@ -1,0 +1,794 @@
+[
+  {
+    "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+    "naptanId": "910GEMRSPKH",
+    "modes": [
+      "overground"
+    ],
+    "icsCode": "1001098",
+    "stopType": "NaptanRailStation",
+    "stationNaptan": "910GEMRSPKH",
+    "lines": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+        "id": "liberty",
+        "name": "Liberty",
+        "uri": "/Line/liberty",
+        "type": "Line",
+        "crowding": {
+          "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        },
+        "routeType": "Unknown",
+        "status": "Unknown"
+      }
+    ],
+    "lineGroup": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineGroup, Tfl.Api.Presentation.Entities",
+        "stationAtcoCode": "910GEMRSPKH",
+        "lineIdentifier": [
+          "liberty"
+        ]
+      }
+    ],
+    "lineModeGroups": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineModeGroup, Tfl.Api.Presentation.Entities",
+        "modeName": "overground",
+        "lineIdentifier": [
+          "liberty"
+        ]
+      }
+    ],
+    "status": true,
+    "id": "910GEMRSPKH",
+    "commonName": "Emerson Park Rail Station",
+    "placeType": "StopPoint",
+    "additionalProperties": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Address",
+        "key": "Address",
+        "sourceSystemKey": "NreStationData",
+        "value": "Emerson Park station,\r\n            Butts Green Road,\r\n            Hornchurch,\r\n            Greater London,\r\n            RM11 2JP"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Boarding Ramps",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Car Park",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Help points",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Left Luggage",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Payphones",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Address",
+        "key": "PhoneNo",
+        "sourceSystemKey": "NreStationData",
+        "value": "0343 222 1234"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Ticket Halls",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Toilets",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Waiting Room",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "WiFi",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Geo",
+        "key": "Zone",
+        "sourceSystemKey": "SingleFareFinder",
+        "value": "6"
+      }
+    ],
+    "children": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "9100EMRSPKH0",
+        "modes": [],
+        "icsCode": "1001098",
+        "stationNaptan": "910GEMRSPKH",
+        "lines": [],
+        "lineGroup": [],
+        "lineModeGroups": [],
+        "status": true,
+        "id": "9100EMRSPKH0",
+        "commonName": "Emerson Park Station",
+        "placeType": "StopPoint",
+        "additionalProperties": [],
+        "children": [],
+        "lat": 0.0,
+        "lon": 0.0
+      }
+    ],
+    "lat": 51.568642,
+    "lon": 0.220113
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+    "naptanId": "910GROMFORD",
+    "modes": [
+      "elizabeth-line",
+      "overground",
+      "national-rail"
+    ],
+    "icsCode": "1001243",
+    "stopType": "NaptanRailStation",
+    "stationNaptan": "910GROMFORD",
+    "lines": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+        "id": "elizabeth",
+        "name": "Elizabeth line",
+        "uri": "/Line/elizabeth",
+        "type": "Line",
+        "crowding": {
+          "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        },
+        "routeType": "Unknown",
+        "status": "Unknown"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+        "id": "greater-anglia",
+        "name": "Greater Anglia",
+        "uri": "/Line/greater-anglia",
+        "type": "Line",
+        "crowding": {
+          "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        },
+        "routeType": "Unknown",
+        "status": "Unknown"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+        "id": "liberty",
+        "name": "Liberty",
+        "uri": "/Line/liberty",
+        "type": "Line",
+        "crowding": {
+          "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        },
+        "routeType": "Unknown",
+        "status": "Unknown"
+      }
+    ],
+    "lineGroup": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineGroup, Tfl.Api.Presentation.Entities",
+        "stationAtcoCode": "910GROMFORD",
+        "lineIdentifier": [
+          "elizabeth",
+          "greater-anglia"
+        ]
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineGroup, Tfl.Api.Presentation.Entities",
+        "stationAtcoCode": "910GROMFORD",
+        "lineIdentifier": [
+          "greater-anglia"
+        ]
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineGroup, Tfl.Api.Presentation.Entities",
+        "stationAtcoCode": "910GROMFORD",
+        "lineIdentifier": [
+          "liberty"
+        ]
+      }
+    ],
+    "lineModeGroups": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineModeGroup, Tfl.Api.Presentation.Entities",
+        "modeName": "elizabeth-line",
+        "lineIdentifier": [
+          "elizabeth"
+        ]
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineModeGroup, Tfl.Api.Presentation.Entities",
+        "modeName": "national-rail",
+        "lineIdentifier": [
+          "greater-anglia"
+        ]
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineModeGroup, Tfl.Api.Presentation.Entities",
+        "modeName": "overground",
+        "lineIdentifier": [
+          "liberty"
+        ]
+      }
+    ],
+    "status": true,
+    "id": "910GROMFORD",
+    "commonName": "Romford Rail Station",
+    "placeType": "StopPoint",
+    "additionalProperties": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Address",
+        "key": "Address",
+        "sourceSystemKey": "NreStationData",
+        "value": "Romford station,\r\n            South Street,\r\n            Romford,\r\n            Greater London,\r\n            RM1 1SX"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Boarding Ramps",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Car Park",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Cash Machines",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Help points",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Left Luggage",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "MonFriFrom",
+        "sourceSystemKey": "NreStationData",
+        "value": "06:00"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "MonFriTo",
+        "sourceSystemKey": "NreStationData",
+        "value": "20:00"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Payphones",
+        "sourceSystemKey": "NreStationData",
+        "value": "no"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "SatFrom",
+        "sourceSystemKey": "NreStationData",
+        "value": "06:15"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "SatTo",
+        "sourceSystemKey": "NreStationData",
+        "value": "20:00"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "SunFrom",
+        "sourceSystemKey": "NreStationData",
+        "value": "07:10"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "SunTo",
+        "sourceSystemKey": "NreStationData",
+        "value": "20:10"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Ticket Halls",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Toilets",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Waiting Room",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "WiFi",
+        "sourceSystemKey": "NreStationData",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Geo",
+        "key": "Zone",
+        "sourceSystemKey": "SingleFareFinder",
+        "value": "6"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "NearestPlaces",
+        "key": "SourceSystemPlaceId",
+        "sourceSystemKey": "StaticObjects",
+        "value": "TaxiRank_5716"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "NearestPlaces",
+        "key": "SourceSystemPlaceId",
+        "sourceSystemKey": "StaticObjects",
+        "value": "TaxiRank_5850"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "NearestPlaces",
+        "key": "SourceSystemPlaceId",
+        "sourceSystemKey": "StaticObjects",
+        "value": "TaxiRank_5848"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "NearestPlaces",
+        "key": "SourceSystemPlaceId",
+        "sourceSystemKey": "StaticObjects",
+        "value": "TaxiRank_5574"
+      }
+    ],
+    "children": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "9100ROMFORD3",
+        "modes": [],
+        "icsCode": "1001243",
+        "stationNaptan": "910GROMFORD",
+        "lines": [],
+        "lineGroup": [],
+        "lineModeGroups": [],
+        "status": true,
+        "id": "9100ROMFORD3",
+        "commonName": "Romford Station",
+        "placeType": "StopPoint",
+        "additionalProperties": [],
+        "children": [],
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "9100ROMFORD1",
+        "modes": [],
+        "icsCode": "1001243",
+        "stationNaptan": "910GROMFORD",
+        "lines": [],
+        "lineGroup": [],
+        "lineModeGroups": [],
+        "status": true,
+        "id": "9100ROMFORD1",
+        "commonName": "Romford Station",
+        "placeType": "StopPoint",
+        "additionalProperties": [],
+        "children": [],
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "9100ROMFORD2",
+        "modes": [],
+        "icsCode": "1001243",
+        "stationNaptan": "910GROMFORD",
+        "lines": [],
+        "lineGroup": [],
+        "lineModeGroups": [],
+        "status": true,
+        "id": "9100ROMFORD2",
+        "commonName": "Romford Station",
+        "placeType": "StopPoint",
+        "additionalProperties": [],
+        "children": [],
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "9100ROMFORD0",
+        "modes": [],
+        "icsCode": "1001243",
+        "stationNaptan": "910GROMFORD",
+        "lines": [],
+        "lineGroup": [],
+        "lineModeGroups": [],
+        "status": true,
+        "id": "9100ROMFORD0",
+        "commonName": "Romford Station",
+        "placeType": "StopPoint",
+        "additionalProperties": [],
+        "children": [],
+        "lat": 0.0,
+        "lon": 0.0
+      }
+    ],
+    "lat": 51.574829,
+    "lon": 0.183237
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+    "naptanId": "910GUPMNSTR",
+    "modes": [
+      "national-rail",
+      "overground"
+    ],
+    "icsCode": "1000242",
+    "stopType": "NaptanRailStation",
+    "stationNaptan": "910GUPMNSTR",
+    "hubNaptanCode": "HUBUPM",
+    "lines": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+        "id": "c2c",
+        "name": "c2c",
+        "uri": "/Line/c2c",
+        "type": "Line",
+        "crowding": {
+          "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        },
+        "routeType": "Unknown",
+        "status": "Unknown"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+        "id": "liberty",
+        "name": "Liberty",
+        "uri": "/Line/liberty",
+        "type": "Line",
+        "crowding": {
+          "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        },
+        "routeType": "Unknown",
+        "status": "Unknown"
+      }
+    ],
+    "lineGroup": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineGroup, Tfl.Api.Presentation.Entities",
+        "stationAtcoCode": "910GUPMNSTR",
+        "lineIdentifier": [
+          "c2c"
+        ]
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineGroup, Tfl.Api.Presentation.Entities",
+        "stationAtcoCode": "910GUPMNSTR",
+        "lineIdentifier": [
+          "liberty"
+        ]
+      }
+    ],
+    "lineModeGroups": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineModeGroup, Tfl.Api.Presentation.Entities",
+        "modeName": "national-rail",
+        "lineIdentifier": [
+          "c2c"
+        ]
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineModeGroup, Tfl.Api.Presentation.Entities",
+        "modeName": "overground",
+        "lineIdentifier": [
+          "liberty"
+        ]
+      }
+    ],
+    "status": true,
+    "id": "910GUPMNSTR",
+    "commonName": "Upminster Rail Station",
+    "placeType": "StopPoint",
+    "additionalProperties": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Photo Booths",
+        "sourceSystemKey": "StaticObjects",
+        "value": "0"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "WiFi",
+        "sourceSystemKey": "StaticObjects",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Cash Machines",
+        "sourceSystemKey": "StaticObjects",
+        "value": "0"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Toilets",
+        "sourceSystemKey": "StaticObjects",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Payphones",
+        "sourceSystemKey": "StaticObjects",
+        "value": "0 in ticket halls, 0 on platforms"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Ticket Halls",
+        "sourceSystemKey": "StaticObjects",
+        "value": "2"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Waiting Room",
+        "sourceSystemKey": "StaticObjects",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Address",
+        "key": "Address",
+        "sourceSystemKey": "StaticObjects",
+        "value": "Upminster Station NR Station Rd,Upminster,Essex,RM14 2TD"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Help Points",
+        "sourceSystemKey": "StaticObjects",
+        "value": "0 on platforms, 0 in ticket halls, 0 elsewhere"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Geo",
+        "key": "Zone",
+        "sourceSystemKey": "StaticObjects",
+        "value": "6"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Bridge",
+        "sourceSystemKey": "StaticObjects",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Gates",
+        "sourceSystemKey": "StaticObjects",
+        "value": "0"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "SatFrom",
+        "sourceSystemKey": "StaticObjects",
+        "value": "06:15"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "SatTo",
+        "sourceSystemKey": "StaticObjects",
+        "value": "22:00"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "MonFriFrom",
+        "sourceSystemKey": "StaticObjects",
+        "value": "05:15"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "MonFriTo",
+        "sourceSystemKey": "StaticObjects",
+        "value": "22:00"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "SunFrom",
+        "sourceSystemKey": "StaticObjects",
+        "value": "06:45"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Opening Time",
+        "key": "SunTo",
+        "sourceSystemKey": "StaticObjects",
+        "value": "22:00"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Car park",
+        "sourceSystemKey": "StaticObjects",
+        "value": "yes"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Escalators",
+        "sourceSystemKey": "StaticObjects",
+        "value": "0"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Lifts",
+        "sourceSystemKey": "StaticObjects",
+        "value": "1"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Facility",
+        "key": "Other Facilities",
+        "sourceSystemKey": "StaticObjects",
+        "value": "Refreshment facilities"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "Address",
+        "key": "PhoneNo",
+        "sourceSystemKey": "StaticObjects",
+        "value": "0845 330 9880"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+        "category": "NearestPlaces",
+        "key": "SourceSystemPlaceId",
+        "sourceSystemKey": "StaticObjects",
+        "value": "TaxiRank_4865"
+      }
+    ],
+    "children": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "9100UPMNSTR1",
+        "modes": [],
+        "icsCode": "1000242",
+        "stationNaptan": "910GUPMNSTR",
+        "hubNaptanCode": "HUBUPM",
+        "lines": [],
+        "lineGroup": [],
+        "lineModeGroups": [],
+        "status": true,
+        "id": "9100UPMNSTR1",
+        "commonName": "Upminster Station",
+        "placeType": "StopPoint",
+        "additionalProperties": [],
+        "children": [],
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "9100UPMNSTR2",
+        "modes": [],
+        "icsCode": "1000242",
+        "stationNaptan": "910GUPMNSTR",
+        "hubNaptanCode": "HUBUPM",
+        "lines": [],
+        "lineGroup": [],
+        "lineModeGroups": [],
+        "status": true,
+        "id": "9100UPMNSTR2",
+        "commonName": "Upminster Station",
+        "placeType": "StopPoint",
+        "additionalProperties": [],
+        "children": [],
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+        "naptanId": "9100UPMNSP61",
+        "modes": [],
+        "icsCode": "1000242",
+        "stationNaptan": "910GUPMNSTR",
+        "hubNaptanCode": "HUBUPM",
+        "lines": [],
+        "lineGroup": [],
+        "lineModeGroups": [],
+        "status": true,
+        "id": "9100UPMNSP61",
+        "commonName": "Upminster Station",
+        "placeType": "StopPoint",
+        "additionalProperties": [],
+        "children": [],
+        "lat": 0.0,
+        "lon": 0.0
+      }
+    ],
+    "lat": 51.559018,
+    "lon": 0.25088
+  }
+]

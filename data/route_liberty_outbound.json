@@ -1,0 +1,370 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+  "lineId": "liberty",
+  "lineName": "Liberty",
+  "direction": "outbound",
+  "isOutboundOnly": false,
+  "mode": "overground",
+  "lineStrings": [
+    "[[[0.183237,51.574829],[0.220113,51.568642],[0.25088,51.559018]]]"
+  ],
+  "stations": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GEMRSPKH",
+      "icsId": "1001098",
+      "topMostParentId": "910GEMRSPKH",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "6",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "liberty",
+          "name": "Liberty",
+          "uri": "/Line/liberty",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GEMRSPKH",
+      "name": "Emerson Park Rail Station",
+      "lat": 51.568642,
+      "lon": 0.220113
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GROMFORD",
+      "icsId": "1001243",
+      "topMostParentId": "910GROMFORD",
+      "modes": [
+        "elizabeth-line",
+        "overground",
+        "national-rail"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "6",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "elizabeth",
+          "name": "Elizabeth line",
+          "uri": "/Line/elizabeth",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "liberty",
+          "name": "Liberty",
+          "uri": "/Line/liberty",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GROMFORD",
+      "name": "Romford Rail Station",
+      "lat": 51.574829,
+      "lon": 0.183237
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000242",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "6",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "248",
+          "name": "248",
+          "uri": "/Line/248",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "346",
+          "name": "346",
+          "uri": "/Line/346",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "370",
+          "name": "370",
+          "uri": "/Line/370",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "646",
+          "name": "646",
+          "uri": "/Line/646",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "652",
+          "name": "652",
+          "uri": "/Line/652",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "c2c",
+          "name": "c2c",
+          "uri": "/Line/c2c",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "liberty",
+          "name": "Liberty",
+          "uri": "/Line/liberty",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBUPM",
+      "name": "Upminster",
+      "lat": 51.558659,
+      "lon": 0.250855
+    }
+  ],
+  "stopPointSequences": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "liberty",
+      "lineName": "Liberty",
+      "direction": "outbound",
+      "branchId": 1,
+      "nextBranchIds": [],
+      "prevBranchIds": [],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GROMFORD",
+          "icsId": "1001243",
+          "topMostParentId": "910GROMFORD",
+          "modes": [
+            "elizabeth-line",
+            "overground",
+            "national-rail"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "6",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "elizabeth",
+              "name": "Elizabeth line",
+              "uri": "/Line/elizabeth",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "liberty",
+              "name": "Liberty",
+              "uri": "/Line/liberty",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GROMFORD",
+          "name": "Romford Rail Station",
+          "lat": 51.574829,
+          "lon": 0.183237
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GEMRSPKH",
+          "icsId": "1001098",
+          "topMostParentId": "910GEMRSPKH",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "6",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "liberty",
+              "name": "Liberty",
+              "uri": "/Line/liberty",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GEMRSPKH",
+          "name": "Emerson Park Rail Station",
+          "lat": 51.568642,
+          "lon": 0.220113
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBUPM",
+          "stationId": "910GUPMNSTR",
+          "icsId": "1000242",
+          "topMostParentId": "HUBUPM",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "6",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "c2c",
+              "name": "c2c",
+              "uri": "/Line/c2c",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "liberty",
+              "name": "Liberty",
+              "uri": "/Line/liberty",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GUPMNSTR",
+          "name": "Upminster Rail Station",
+          "lat": 51.559018,
+          "lon": 0.25088
+        }
+      ],
+      "serviceType": "Regular"
+    }
+  ],
+  "orderedLineRoutes": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "Romford  &harr;  Upminster ",
+      "naptanIds": [
+        "910GROMFORD",
+        "910GEMRSPKH",
+        "910GUPMNSTR"
+      ],
+      "serviceType": "Regular"
+    }
+  ]
+}

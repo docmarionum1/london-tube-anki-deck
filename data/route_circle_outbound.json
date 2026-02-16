@@ -1,0 +1,4940 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+  "lineId": "circle",
+  "lineName": "Circle",
+  "direction": "outbound",
+  "isOutboundOnly": false,
+  "mode": "tube",
+  "lineStrings": [
+    "[[[-0.22503,51.49339],[-0.226715,51.502005],[-0.226375,51.505579],[-0.22453,51.509669],[-0.217799,51.513389],[-0.210391,51.517449],[-0.201065,51.52111],[-0.188748,51.519113],[-0.178306,51.518187],[-0.167832,51.519858],[-0.15713,51.522883],[-0.144262,51.52384],[-0.135829,51.525604],[-0.123194,51.530663],[-0.104913,51.520252],[-0.097993,51.520275],[-0.088322,51.518176],[-0.083182,51.517372],[-0.075689,51.514246],[-0.076546,51.509971],[-0.085969,51.5107],[-0.090432,51.51151],[-0.094009,51.512117],[-0.103659,51.511581],[-0.11426,51.511006],[-0.122666,51.507058],[-0.124861,51.50132],[-0.133608,51.499544],[-0.143102,51.496359],[-0.156377,51.49227],[-0.174138,51.494094],[-0.182658,51.494316],[-0.192792,51.501055],[-0.196104,51.509128],[-0.187938,51.512284],[-0.175689,51.516581],[-0.167832,51.519858]]]"
+  ],
+  "stations": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUALD",
+      "icsId": "1000003",
+      "topMostParentId": "940GZZLUALD",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUALD",
+      "name": "Aldgate Underground Station",
+      "lat": 51.514246,
+      "lon": -0.075689
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUBBN",
+      "icsId": "1000014",
+      "topMostParentId": "940GZZLUBBN",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUBBN",
+      "name": "Barbican Underground Station",
+      "lat": 51.520275,
+      "lon": -0.097993
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUBST",
+      "icsId": "1000011",
+      "topMostParentId": "940GZZLUBST",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "jubilee",
+          "name": "Jubilee",
+          "uri": "/Line/jubilee",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUBST",
+      "name": "Baker Street Underground Station",
+      "lat": 51.522883,
+      "lon": -0.15713
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUBWT",
+      "icsId": "1000018",
+      "topMostParentId": "940GZZLUBWT",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUBWT",
+      "name": "Bayswater Underground Station",
+      "lat": 51.512284,
+      "lon": -0.187938
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUEMB",
+      "icsId": "1000075",
+      "topMostParentId": "940GZZLUEMB",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "northern",
+          "name": "Northern",
+          "uri": "/Line/northern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUEMB",
+      "name": "Embankment Underground Station",
+      "lat": 51.507058,
+      "lon": -0.122666
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUERC",
+      "icsId": "1000072",
+      "topMostParentId": "940GZZLUERC",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUERC",
+      "name": "Edgware Road (Circle Line) Underground Station",
+      "lat": 51.519858,
+      "lon": -0.167832
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUESQ",
+      "icsId": "1000078",
+      "topMostParentId": "940GZZLUESQ",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUESQ",
+      "name": "Euston Square Underground Station",
+      "lat": 51.525604,
+      "lon": -0.135829
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUGHK",
+      "icsId": "1000088",
+      "topMostParentId": "940GZZLUGHK",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUGHK",
+      "name": "Goldhawk Road Underground Station",
+      "lat": 51.502005,
+      "lon": -0.226715
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUGPS",
+      "icsId": "1000091",
+      "topMostParentId": "940GZZLUGPS",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUGPS",
+      "name": "Great Portland Street Underground Station",
+      "lat": 51.52384,
+      "lon": -0.144262
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUGTR",
+      "icsId": "1000086",
+      "topMostParentId": "940GZZLUGTR",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "piccadilly",
+          "name": "Piccadilly",
+          "uri": "/Line/piccadilly",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUGTR",
+      "name": "Gloucester Road Underground Station",
+      "lat": 51.494316,
+      "lon": -0.182658
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUHSK",
+      "icsId": "1000110",
+      "topMostParentId": "940GZZLUHSK",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUHSK",
+      "name": "High Street Kensington Underground Station",
+      "lat": 51.501055,
+      "lon": -0.192792
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLULAD",
+      "icsId": "1000131",
+      "topMostParentId": "940GZZLULAD",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLULAD",
+      "name": "Ladbroke Grove Underground Station",
+      "lat": 51.517449,
+      "lon": -0.210391
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLULRD",
+      "icsId": "1000134",
+      "topMostParentId": "940GZZLULRD",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLULRD",
+      "name": "Latimer Road Underground Station",
+      "lat": 51.513389,
+      "lon": -0.217799
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUMMT",
+      "icsId": "1000148",
+      "topMostParentId": "940GZZLUMMT",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUMMT",
+      "name": "Monument Underground Station",
+      "lat": 51.5107,
+      "lon": -0.085969
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUMSH",
+      "icsId": "1000143",
+      "topMostParentId": "940GZZLUMSH",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUMSH",
+      "name": "Mansion House Underground Station",
+      "lat": 51.512117,
+      "lon": -0.094009
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUNHG",
+      "icsId": "1000167",
+      "topMostParentId": "940GZZLUNHG",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1+2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "central",
+          "name": "Central",
+          "uri": "/Line/central",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUNHG",
+      "name": "Notting Hill Gate Underground Station",
+      "lat": 51.509128,
+      "lon": -0.196104
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLURYO",
+      "icsId": "1000196",
+      "topMostParentId": "940GZZLURYO",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLURYO",
+      "name": "Royal Oak Underground Station",
+      "lat": 51.519113,
+      "lon": -0.188748
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUSBM",
+      "icsId": "1000204",
+      "topMostParentId": "940GZZLUSBM",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUSBM",
+      "name": "Shepherd's Bush Market Underground Station",
+      "lat": 51.505579,
+      "lon": -0.226375
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUSJP",
+      "icsId": "1000221",
+      "topMostParentId": "940GZZLUSJP",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUSJP",
+      "name": "St. James's Park Underground Station",
+      "lat": 51.499544,
+      "lon": -0.133608
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUSKS",
+      "icsId": "1000212",
+      "topMostParentId": "940GZZLUSKS",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "piccadilly",
+          "name": "Piccadilly",
+          "uri": "/Line/piccadilly",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUSKS",
+      "name": "South Kensington Underground Station",
+      "lat": 51.494094,
+      "lon": -0.174138
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUSSQ",
+      "icsId": "1000206",
+      "topMostParentId": "940GZZLUSSQ",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUSSQ",
+      "name": "Sloane Square Underground Station",
+      "lat": 51.49227,
+      "lon": -0.156377
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUTMP",
+      "icsId": "1000231",
+      "topMostParentId": "940GZZLUTMP",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUTMP",
+      "name": "Temple Underground Station",
+      "lat": 51.511006,
+      "lon": -0.11426
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUTWH",
+      "icsId": "1000238",
+      "topMostParentId": "940GZZLUTWH",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUTWH",
+      "name": "Tower Hill Underground Station",
+      "lat": 51.509971,
+      "lon": -0.076546
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUWLA",
+      "icsId": "1000278",
+      "topMostParentId": "940GZZLUWLA",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUWLA",
+      "name": "Wood Lane Underground Station",
+      "lat": 51.509669,
+      "lon": -0.22453
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "940GZZLUWSP",
+      "icsId": "1000259",
+      "topMostParentId": "940GZZLUWSP",
+      "modes": [
+        "tube"
+      ],
+      "stopType": "NaptanMetroStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "940GZZLUWSP",
+      "name": "Westbourne Park Underground Station",
+      "lat": 51.52111,
+      "lon": -0.201065
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000023",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "40",
+          "name": "40",
+          "uri": "/Line/40",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "63",
+          "name": "63",
+          "uri": "/Line/63",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n63",
+          "name": "N63",
+          "uri": "/Line/n63",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n89",
+          "name": "N89",
+          "uri": "/Line/n89",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southeastern",
+          "name": "Southeastern",
+          "uri": "/Line/southeastern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "thameslink",
+          "name": "Thameslink",
+          "uri": "/Line/thameslink",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBBFR",
+      "name": "Blackfriars",
+      "lat": 51.509613,
+      "lon": -0.104166
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000040",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southeastern",
+          "name": "Southeastern",
+          "uri": "/Line/southeastern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBCST",
+      "name": "Cannon Street",
+      "lat": 51.511451,
+      "lon": -0.090357
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000096",
+      "modes": [
+        "bus",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "110",
+          "name": "110",
+          "uri": "/Line/110",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "190",
+          "name": "190",
+          "uri": "/Line/190",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "211",
+          "name": "211",
+          "uri": "/Line/211",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "218",
+          "name": "218",
+          "uri": "/Line/218",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "220",
+          "name": "220",
+          "uri": "/Line/220",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "267",
+          "name": "267",
+          "uri": "/Line/267",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "27",
+          "name": "27",
+          "uri": "/Line/27",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "295",
+          "name": "295",
+          "uri": "/Line/295",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "306",
+          "name": "306",
+          "uri": "/Line/306",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "533",
+          "name": "533",
+          "uri": "/Line/533",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "72",
+          "name": "72",
+          "uri": "/Line/72",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "9",
+          "name": "9",
+          "uri": "/Line/9",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "h91",
+          "name": "H91",
+          "uri": "/Line/h91",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n11",
+          "name": "N11",
+          "uri": "/Line/n11",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n266",
+          "name": "N266",
+          "uri": "/Line/n266",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n27",
+          "name": "N27",
+          "uri": "/Line/n27",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n33",
+          "name": "N33",
+          "uri": "/Line/n33",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n72",
+          "name": "N72",
+          "uri": "/Line/n72",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n9",
+          "name": "N9",
+          "uri": "/Line/n9",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n97",
+          "name": "N97",
+          "uri": "/Line/n97",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "piccadilly",
+          "name": "Piccadilly",
+          "uri": "/Line/piccadilly",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBHMS",
+      "name": "Hammersmith",
+      "lat": 51.492304,
+      "lon": -0.223619
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000129",
+      "modes": [
+        "bus",
+        "international-rail",
+        "national-rail",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "17",
+          "name": "17",
+          "uri": "/Line/17",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "205",
+          "name": "205",
+          "uri": "/Line/205",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "214",
+          "name": "214",
+          "uri": "/Line/214",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "259",
+          "name": "259",
+          "uri": "/Line/259",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "30",
+          "name": "30",
+          "uri": "/Line/30",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "390",
+          "name": "390",
+          "uri": "/Line/390",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "46",
+          "name": "46",
+          "uri": "/Line/46",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "476",
+          "name": "476",
+          "uri": "/Line/476",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "63",
+          "name": "63",
+          "uri": "/Line/63",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "73",
+          "name": "73",
+          "uri": "/Line/73",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "91",
+          "name": "91",
+          "uri": "/Line/91",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "east-midlands-railway",
+          "name": "East Midlands Railway",
+          "uri": "/Line/east-midlands-railway",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "grand-central",
+          "name": "Grand Central",
+          "uri": "/Line/grand-central",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "great-northern",
+          "name": "Great Northern",
+          "uri": "/Line/great-northern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hull-trains",
+          "name": "Hull Trains",
+          "uri": "/Line/hull-trains",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "london-north-eastern-railway",
+          "name": "London North Eastern Railway",
+          "uri": "/Line/london-north-eastern-railway",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lumo",
+          "name": "Lumo",
+          "uri": "/Line/lumo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n205",
+          "name": "N205",
+          "uri": "/Line/n205",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n63",
+          "name": "N63",
+          "uri": "/Line/n63",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n73",
+          "name": "N73",
+          "uri": "/Line/n73",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n91",
+          "name": "N91",
+          "uri": "/Line/n91",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "northern",
+          "name": "Northern",
+          "uri": "/Line/northern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "piccadilly",
+          "name": "Piccadilly",
+          "uri": "/Line/piccadilly",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southeastern",
+          "name": "Southeastern",
+          "uri": "/Line/southeastern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "thameslink",
+          "name": "Thameslink",
+          "uri": "/Line/thameslink",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "victoria",
+          "name": "Victoria",
+          "uri": "/Line/victoria",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBKGX",
+      "name": "King's Cross & St Pancras International",
+      "lat": 51.531683,
+      "lon": -0.123538
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000138",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "c2c",
+          "name": "c2c",
+          "uri": "/Line/c2c",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "central",
+          "name": "Central",
+          "uri": "/Line/central",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "elizabeth",
+          "name": "Elizabeth line",
+          "uri": "/Line/elizabeth",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBLST",
+      "name": "Liverpool Street",
+      "lat": 51.51794,
+      "lon": -0.083162
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000174",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "16",
+          "name": "16",
+          "uri": "/Line/16",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "23",
+          "name": "23",
+          "uri": "/Line/23",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "27",
+          "name": "27",
+          "uri": "/Line/27",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "36",
+          "name": "36",
+          "uri": "/Line/36",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "7",
+          "name": "7",
+          "uri": "/Line/7",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "elizabeth",
+          "name": "Elizabeth line",
+          "uri": "/Line/elizabeth",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "great-western-railway",
+          "name": "Great Western Railway",
+          "uri": "/Line/great-western-railway",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "heathrow-express",
+          "name": "Heathrow Express",
+          "uri": "/Line/heathrow-express",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n205",
+          "name": "N205",
+          "uri": "/Line/n205",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n27",
+          "name": "N27",
+          "uri": "/Line/n27",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n7",
+          "name": "N7",
+          "uri": "/Line/n7",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBPAD",
+      "name": "Paddington",
+      "lat": 51.516981,
+      "lon": -0.17616
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000248",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "3",
+          "name": "3",
+          "uri": "/Line/3",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "38",
+          "name": "38",
+          "uri": "/Line/38",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "390",
+          "name": "390",
+          "uri": "/Line/390",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "52",
+          "name": "52",
+          "uri": "/Line/52",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "gatwick-express",
+          "name": "Gatwick Express",
+          "uri": "/Line/gatwick-express",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n38",
+          "name": "N38",
+          "uri": "/Line/n38",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southeastern",
+          "name": "Southeastern",
+          "uri": "/Line/southeastern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "thameslink",
+          "name": "Thameslink",
+          "uri": "/Line/thameslink",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "victoria",
+          "name": "Victoria",
+          "uri": "/Line/victoria",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBVIC",
+      "name": "Victoria",
+      "lat": 51.495812,
+      "lon": -0.143826
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000266",
+      "modes": [
+        "bus",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "12",
+          "name": "12",
+          "uri": "/Line/12",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "159",
+          "name": "159",
+          "uri": "/Line/159",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "24",
+          "name": "24",
+          "uri": "/Line/24",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "26",
+          "name": "26",
+          "uri": "/Line/26",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "453",
+          "name": "453",
+          "uri": "/Line/453",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "87",
+          "name": "87",
+          "uri": "/Line/87",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "88",
+          "name": "88",
+          "uri": "/Line/88",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "jubilee",
+          "name": "Jubilee",
+          "uri": "/Line/jubilee",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n109",
+          "name": "N109",
+          "uri": "/Line/n109",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n11",
+          "name": "N11",
+          "uri": "/Line/n11",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n136",
+          "name": "N136",
+          "uri": "/Line/n136",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n155",
+          "name": "N155",
+          "uri": "/Line/n155",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n26",
+          "name": "N26",
+          "uri": "/Line/n26",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n3",
+          "name": "N3",
+          "uri": "/Line/n3",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n381",
+          "name": "N381",
+          "uri": "/Line/n381",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n44",
+          "name": "N44",
+          "uri": "/Line/n44",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n53",
+          "name": "N53",
+          "uri": "/Line/n53",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n87",
+          "name": "N87",
+          "uri": "/Line/n87",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBWSM",
+      "name": "Westminster",
+      "lat": 51.501603,
+      "lon": -0.125984
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000080",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "elizabeth",
+          "name": "Elizabeth line",
+          "uri": "/Line/elizabeth",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "thameslink",
+          "name": "Thameslink",
+          "uri": "/Line/thameslink",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBZFD",
+      "name": "Farringdon",
+      "lat": 51.520214,
+      "lon": -0.105054
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000149",
+      "modes": [
+        "bus",
+        "national-rail",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "great-northern",
+          "name": "Great Northern",
+          "uri": "/Line/great-northern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "northern",
+          "name": "Northern",
+          "uri": "/Line/northern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBZMG",
+      "name": "Moorgate",
+      "lat": 51.518338,
+      "lon": -0.088627
+    }
+  ],
+  "stopPointSequences": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "circle",
+      "lineName": "Circle",
+      "direction": "outbound",
+      "branchId": 2,
+      "nextBranchIds": [
+        3
+      ],
+      "prevBranchIds": [],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBHMS",
+          "stationId": "940GZZLUHSC",
+          "icsId": "1000097",
+          "topMostParentId": "HUBHMS",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUHSC",
+          "name": "Hammersmith (H&C Line) Underground Station",
+          "lat": 51.49339,
+          "lon": -0.22503
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUGHK",
+          "icsId": "1000088",
+          "topMostParentId": "940GZZLUGHK",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUGHK",
+          "name": "Goldhawk Road Underground Station",
+          "lat": 51.502005,
+          "lon": -0.226715
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUSBM",
+          "icsId": "1000204",
+          "topMostParentId": "940GZZLUSBM",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUSBM",
+          "name": "Shepherd's Bush Market Underground Station",
+          "lat": 51.505579,
+          "lon": -0.226375
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUWLA",
+          "icsId": "1000278",
+          "topMostParentId": "940GZZLUWLA",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUWLA",
+          "name": "Wood Lane Underground Station",
+          "lat": 51.509669,
+          "lon": -0.22453
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLULRD",
+          "icsId": "1000134",
+          "topMostParentId": "940GZZLULRD",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLULRD",
+          "name": "Latimer Road Underground Station",
+          "lat": 51.513389,
+          "lon": -0.217799
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLULAD",
+          "icsId": "1000131",
+          "topMostParentId": "940GZZLULAD",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLULAD",
+          "name": "Ladbroke Grove Underground Station",
+          "lat": 51.517449,
+          "lon": -0.210391
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUWSP",
+          "icsId": "1000259",
+          "topMostParentId": "940GZZLUWSP",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUWSP",
+          "name": "Westbourne Park Underground Station",
+          "lat": 51.52111,
+          "lon": -0.201065
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLURYO",
+          "icsId": "1000196",
+          "topMostParentId": "940GZZLURYO",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLURYO",
+          "name": "Royal Oak Underground Station",
+          "lat": 51.519113,
+          "lon": -0.188748
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBPAD",
+          "stationId": "940GZZLUPAH",
+          "icsId": "1000175",
+          "topMostParentId": "HUBPAD",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUPAH",
+          "name": "Paddington (H&C Line)-Underground",
+          "lat": 51.518187,
+          "lon": -0.178306
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUERC",
+          "icsId": "1000072",
+          "topMostParentId": "940GZZLUERC",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUERC",
+          "name": "Edgware Road (Circle Line) Underground Station",
+          "lat": 51.519858,
+          "lon": -0.167832
+        }
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "circle",
+      "lineName": "Circle",
+      "direction": "outbound",
+      "branchId": 3,
+      "nextBranchIds": [
+        3
+      ],
+      "prevBranchIds": [
+        2,
+        3
+      ],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUERC",
+          "icsId": "1000072",
+          "topMostParentId": "940GZZLUERC",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUERC",
+          "name": "Edgware Road (Circle Line) Underground Station",
+          "lat": 51.519858,
+          "lon": -0.167832
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUBST",
+          "icsId": "1000011",
+          "topMostParentId": "940GZZLUBST",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "bakerloo",
+              "name": "Bakerloo",
+              "uri": "/Line/bakerloo",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "jubilee",
+              "name": "Jubilee",
+              "uri": "/Line/jubilee",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUBST",
+          "name": "Baker Street Underground Station",
+          "lat": 51.522883,
+          "lon": -0.15713
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUGPS",
+          "icsId": "1000091",
+          "topMostParentId": "940GZZLUGPS",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUGPS",
+          "name": "Great Portland Street Underground Station",
+          "lat": 51.52384,
+          "lon": -0.144262
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUESQ",
+          "icsId": "1000078",
+          "topMostParentId": "940GZZLUESQ",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUESQ",
+          "name": "Euston Square Underground Station",
+          "lat": 51.525604,
+          "lon": -0.135829
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBKGX",
+          "stationId": "940GZZLUKSX",
+          "icsId": "1000129",
+          "topMostParentId": "HUBKGX",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "northern",
+              "name": "Northern",
+              "uri": "/Line/northern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "piccadilly",
+              "name": "Piccadilly",
+              "uri": "/Line/piccadilly",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "victoria",
+              "name": "Victoria",
+              "uri": "/Line/victoria",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUKSX",
+          "name": "King's Cross St. Pancras Underground Station",
+          "lat": 51.530663,
+          "lon": -0.123194
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBZFD",
+          "stationId": "940GZZLUFCN",
+          "icsId": "1000080",
+          "topMostParentId": "HUBZFD",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUFCN",
+          "name": "Farringdon Underground Station",
+          "lat": 51.520252,
+          "lon": -0.104913
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUBBN",
+          "icsId": "1000014",
+          "topMostParentId": "940GZZLUBBN",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUBBN",
+          "name": "Barbican Underground Station",
+          "lat": 51.520275,
+          "lon": -0.097993
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBZMG",
+          "stationId": "940GZZLUMGT",
+          "icsId": "1000149",
+          "topMostParentId": "HUBZMG",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "northern",
+              "name": "Northern",
+              "uri": "/Line/northern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUMGT",
+          "name": "Moorgate Underground Station",
+          "lat": 51.518176,
+          "lon": -0.088322
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBLST",
+          "stationId": "940GZZLULVT",
+          "icsId": "1000138",
+          "topMostParentId": "HUBLST",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "central",
+              "name": "Central",
+              "uri": "/Line/central",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLULVT",
+          "name": "Liverpool Street Underground Station",
+          "lat": 51.517372,
+          "lon": -0.083182
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUALD",
+          "icsId": "1000003",
+          "topMostParentId": "940GZZLUALD",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "metropolitan",
+              "name": "Metropolitan",
+              "uri": "/Line/metropolitan",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUALD",
+          "name": "Aldgate Underground Station",
+          "lat": 51.514246,
+          "lon": -0.075689
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUTWH",
+          "icsId": "1000238",
+          "topMostParentId": "940GZZLUTWH",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUTWH",
+          "name": "Tower Hill Underground Station",
+          "lat": 51.509971,
+          "lon": -0.076546
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUMMT",
+          "icsId": "1000148",
+          "topMostParentId": "940GZZLUMMT",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUMMT",
+          "name": "Monument Underground Station",
+          "lat": 51.5107,
+          "lon": -0.085969
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBCST",
+          "stationId": "940GZZLUCST",
+          "icsId": "1000040",
+          "topMostParentId": "HUBCST",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUCST",
+          "name": "Cannon Street Underground Station",
+          "lat": 51.51151,
+          "lon": -0.090432
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUMSH",
+          "icsId": "1000143",
+          "topMostParentId": "940GZZLUMSH",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUMSH",
+          "name": "Mansion House Underground Station",
+          "lat": 51.512117,
+          "lon": -0.094009
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBBFR",
+          "stationId": "940GZZLUBKF",
+          "icsId": "1000023",
+          "topMostParentId": "HUBBFR",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUBKF",
+          "name": "Blackfriars Underground Station",
+          "lat": 51.511581,
+          "lon": -0.103659
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUTMP",
+          "icsId": "1000231",
+          "topMostParentId": "940GZZLUTMP",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUTMP",
+          "name": "Temple Underground Station",
+          "lat": 51.511006,
+          "lon": -0.11426
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUEMB",
+          "icsId": "1000075",
+          "topMostParentId": "940GZZLUEMB",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "bakerloo",
+              "name": "Bakerloo",
+              "uri": "/Line/bakerloo",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "northern",
+              "name": "Northern",
+              "uri": "/Line/northern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUEMB",
+          "name": "Embankment Underground Station",
+          "lat": 51.507058,
+          "lon": -0.122666
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWSM",
+          "stationId": "940GZZLUWSM",
+          "icsId": "1000266",
+          "topMostParentId": "HUBWSM",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "jubilee",
+              "name": "Jubilee",
+              "uri": "/Line/jubilee",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUWSM",
+          "name": "Westminster Underground Station",
+          "lat": 51.50132,
+          "lon": -0.124861
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUSJP",
+          "icsId": "1000221",
+          "topMostParentId": "940GZZLUSJP",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUSJP",
+          "name": "St. James's Park Underground Station",
+          "lat": 51.499544,
+          "lon": -0.133608
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBVIC",
+          "stationId": "940GZZLUVIC",
+          "icsId": "1000248",
+          "topMostParentId": "HUBVIC",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "victoria",
+              "name": "Victoria",
+              "uri": "/Line/victoria",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUVIC",
+          "name": "Victoria Underground Station",
+          "lat": 51.496359,
+          "lon": -0.143102
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUSSQ",
+          "icsId": "1000206",
+          "topMostParentId": "940GZZLUSSQ",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUSSQ",
+          "name": "Sloane Square Underground Station",
+          "lat": 51.49227,
+          "lon": -0.156377
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUSKS",
+          "icsId": "1000212",
+          "topMostParentId": "940GZZLUSKS",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "piccadilly",
+              "name": "Piccadilly",
+              "uri": "/Line/piccadilly",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUSKS",
+          "name": "South Kensington Underground Station",
+          "lat": 51.494094,
+          "lon": -0.174138
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUGTR",
+          "icsId": "1000086",
+          "topMostParentId": "940GZZLUGTR",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "piccadilly",
+              "name": "Piccadilly",
+              "uri": "/Line/piccadilly",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUGTR",
+          "name": "Gloucester Road Underground Station",
+          "lat": 51.494316,
+          "lon": -0.182658
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUHSK",
+          "icsId": "1000110",
+          "topMostParentId": "940GZZLUHSK",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUHSK",
+          "name": "High Street Kensington Underground Station",
+          "lat": 51.501055,
+          "lon": -0.192792
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUNHG",
+          "icsId": "1000167",
+          "topMostParentId": "940GZZLUNHG",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1+2",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "central",
+              "name": "Central",
+              "uri": "/Line/central",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUNHG",
+          "name": "Notting Hill Gate Underground Station",
+          "lat": 51.509128,
+          "lon": -0.196104
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUBWT",
+          "icsId": "1000018",
+          "topMostParentId": "940GZZLUBWT",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUBWT",
+          "name": "Bayswater Underground Station",
+          "lat": 51.512284,
+          "lon": -0.187938
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBPAD",
+          "stationId": "940GZZLUPAC",
+          "icsId": "1000174",
+          "topMostParentId": "HUBPAD",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "bakerloo",
+              "name": "Bakerloo",
+              "uri": "/Line/bakerloo",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUPAC",
+          "name": "Paddington Underground Station",
+          "lat": 51.516581,
+          "lon": -0.175689
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "940GZZLUERC",
+          "icsId": "1000072",
+          "topMostParentId": "940GZZLUERC",
+          "modes": [
+            "tube"
+          ],
+          "stopType": "NaptanMetroStation",
+          "zone": "1",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "circle",
+              "name": "Circle",
+              "uri": "/Line/circle",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "district",
+              "name": "District",
+              "uri": "/Line/district",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "hammersmith-city",
+              "name": "Hammersmith & City",
+              "uri": "/Line/hammersmith-city",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "940GZZLUERC",
+          "name": "Edgware Road (Circle Line) Underground Station",
+          "lat": 51.519858,
+          "lon": -0.167832
+        }
+      ],
+      "serviceType": "Regular"
+    }
+  ],
+  "orderedLineRoutes": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "Hammersmith (H&C Line)  &harr;  Edgware Road (Circle Line) ",
+      "naptanIds": [
+        "940GZZLUHSC",
+        "940GZZLUGHK",
+        "940GZZLUSBM",
+        "940GZZLUWLA",
+        "940GZZLULRD",
+        "940GZZLULAD",
+        "940GZZLUWSP",
+        "940GZZLURYO",
+        "940GZZLUPAH",
+        "940GZZLUERC",
+        "940GZZLUBST",
+        "940GZZLUGPS",
+        "940GZZLUESQ",
+        "940GZZLUKSX",
+        "940GZZLUFCN",
+        "940GZZLUBBN",
+        "940GZZLUMGT",
+        "940GZZLULVT",
+        "940GZZLUALD",
+        "940GZZLUTWH",
+        "940GZZLUMMT",
+        "940GZZLUCST",
+        "940GZZLUMSH",
+        "940GZZLUBKF",
+        "940GZZLUTMP",
+        "940GZZLUEMB",
+        "940GZZLUWSM",
+        "940GZZLUSJP",
+        "940GZZLUVIC",
+        "940GZZLUSSQ",
+        "940GZZLUSKS",
+        "940GZZLUGTR",
+        "940GZZLUHSK",
+        "940GZZLUNHG",
+        "940GZZLUBWT",
+        "940GZZLUPAC",
+        "940GZZLUERC"
+      ],
+      "serviceType": "Regular"
+    }
+  ]
+}

@@ -1,0 +1,2533 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+  "lineId": "weaver",
+  "lineName": "Weaver",
+  "direction": "outbound",
+  "isOutboundOnly": false,
+  "mode": "overground",
+  "lineStrings": [
+    "[[[-0.081426,51.517991],[-0.059568,51.523917],[-0.057279,51.531973],[-0.057753,51.541153],[-0.060819,51.548757],[-0.068267,51.558502],[-0.072887,51.565233],[-0.076682,51.574467],[-0.07527,51.582268],[-0.069867,51.593959],[-0.070914,51.605037],[-0.06724,51.614688],[-0.061112,51.624929],[-0.052437,51.648705],[-0.047217,51.672628],[-0.034831,51.692457],[-0.02396,51.702876]]]",
+    "[[[-0.081426,51.517991],[-0.059568,51.523917],[-0.057279,51.531973],[-0.057753,51.541153],[-0.060819,51.548757],[-0.068267,51.558502],[-0.072887,51.565233],[-0.076682,51.574467],[-0.07527,51.582268],[-0.069867,51.593959],[-0.070914,51.605037],[-0.06724,51.614688],[-0.061112,51.624929],[-0.069221,51.641519],[-0.079328,51.652026]]]",
+    "[[[-0.081426,51.517991],[-0.059568,51.523917],[-0.057279,51.531973],[-0.057753,51.541153],[-0.060819,51.548757],[-0.057025,51.561644],[-0.032918,51.580981],[-0.019815,51.582919],[-0.002405,51.58658],[-0.000222,51.60835],[0.009897,51.633087]]]"
+  ],
+  "stations": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GBHILLPK",
+      "icsId": "1001042",
+      "topMostParentId": "910GBHILLPK",
+      "modes": [
+        "bus",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "5",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "377",
+          "name": "377",
+          "uri": "/Line/377",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GBHILLPK",
+      "name": "Bush Hill Park Rail Station",
+      "lat": 51.641519,
+      "lon": -0.069221
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GBRUCGRV",
+      "icsId": "1001040",
+      "topMostParentId": "910GBRUCGRV",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GBRUCGRV",
+      "name": "Bruce Grove Rail Station",
+      "lat": 51.593959,
+      "lon": -0.069867
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GBTHNLGR",
+      "icsId": "1001023",
+      "topMostParentId": "910GBTHNLGR",
+      "modes": [
+        "overground",
+        "national-rail"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GBTHNLGR",
+      "name": "Bethnal Green Rail Station",
+      "lat": 51.523917,
+      "lon": -0.059568
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCAMHTH",
+      "icsId": "1001044",
+      "topMostParentId": "910GCAMHTH",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCAMHTH",
+      "name": "Cambridge Heath (London) Rail Station",
+      "lat": 51.531973,
+      "lon": -0.057279
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCHESHNT",
+      "icsId": "1001532",
+      "topMostParentId": "910GCHESHNT",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "8",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCHESHNT",
+      "name": "Cheshunt Rail Station",
+      "lat": 51.702876,
+      "lon": -0.02396
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCHINGFD",
+      "icsId": "1001063",
+      "topMostParentId": "910GCHINGFD",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "5",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCHINGFD",
+      "name": "Chingford Rail Station",
+      "lat": 51.633087,
+      "lon": 0.009897
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCLAPTON",
+      "icsId": "1001070",
+      "topMostParentId": "910GCLAPTON",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2+3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCLAPTON",
+      "name": "Clapton Rail Station",
+      "lat": 51.561644,
+      "lon": -0.057025
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GEDMNGRN",
+      "icsId": "1001092",
+      "topMostParentId": "910GEDMNGRN",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GEDMNGRN",
+      "name": "Edmonton Green Rail Station",
+      "lat": 51.624929,
+      "lon": -0.061112
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GENFLDTN",
+      "icsId": "1001101",
+      "topMostParentId": "910GENFLDTN",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "5",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GENFLDTN",
+      "name": "Enfield Town Rail Station",
+      "lat": 51.652026,
+      "lon": -0.079328
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHAKNYNM",
+      "icsId": "1001128",
+      "topMostParentId": "910GHAKNYNM",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHAKNYNM",
+      "name": "Hackney Downs Rail Station",
+      "lat": 51.548757,
+      "lon": -0.060819
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHGHMSPK",
+      "icsId": "1001150",
+      "topMostParentId": "910GHGHMSPK",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHGHMSPK",
+      "name": "Highams Park Rail Station",
+      "lat": 51.60835,
+      "lon": -0.000222
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GLONFLDS",
+      "icsId": "1001183",
+      "topMostParentId": "910GLONFLDS",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GLONFLDS",
+      "name": "London Fields Rail Station",
+      "lat": 51.541153,
+      "lon": -0.057753
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GRCTRYRD",
+      "icsId": "1001238",
+      "topMostParentId": "910GRCTRYRD",
+      "modes": [
+        "overground",
+        "national-rail"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GRCTRYRD",
+      "name": "Rectory Road Rail Station",
+      "lat": 51.558502,
+      "lon": -0.068267
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSBURY",
+      "icsId": "1001257",
+      "topMostParentId": "910GSBURY",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "5",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GSBURY",
+      "name": "Southbury Rail Station",
+      "lat": 51.648705,
+      "lon": -0.052437
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSIVRST",
+      "icsId": "1001250",
+      "topMostParentId": "910GSIVRST",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GSIVRST",
+      "name": "Silver Street Rail Station",
+      "lat": 51.614688,
+      "lon": -0.06724
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSTJMSST",
+      "icsId": "1001268",
+      "topMostParentId": "910GSTJMSST",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GSTJMSST",
+      "name": "St James Street (London) Rail Station",
+      "lat": 51.580981,
+      "lon": -0.032918
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSTKNWNG",
+      "icsId": "1001273",
+      "topMostParentId": "910GSTKNWNG",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GSTKNWNG",
+      "name": "Stoke Newington Rail Station",
+      "lat": 51.565233,
+      "lon": -0.072887
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSTMFDHL",
+      "icsId": "1001265",
+      "topMostParentId": "910GSTMFDHL",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GSTMFDHL",
+      "name": "Stamford Hill Rail Station",
+      "lat": 51.574467,
+      "lon": -0.076682
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GTHBLDSG",
+      "icsId": "1001533",
+      "topMostParentId": "910GTHBLDSG",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "7",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GTHBLDSG",
+      "name": "Theobalds Grove Rail Station",
+      "lat": 51.692457,
+      "lon": -0.034831
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GTURKYST",
+      "icsId": "1001299",
+      "topMostParentId": "910GTURKYST",
+      "modes": [
+        "overground",
+        "national-rail"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "6",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GTURKYST",
+      "name": "Turkey Street Rail Station",
+      "lat": 51.672628,
+      "lon": -0.047217
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GWDST",
+      "icsId": "1001343",
+      "topMostParentId": "910GWDST",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GWDST",
+      "name": "Wood Street Rail Station",
+      "lat": 51.58658,
+      "lon": -0.002405
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GWHHRTLA",
+      "icsId": "1001335",
+      "topMostParentId": "910GWHHRTLA",
+      "modes": [
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GWHHRTLA",
+      "name": "White Hart Lane Rail Station",
+      "lat": 51.605037,
+      "lon": -0.070914
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000138",
+      "modes": [
+        "bus",
+        "elizabeth-line",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "c2c",
+          "name": "c2c",
+          "uri": "/Line/c2c",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "central",
+          "name": "Central",
+          "uri": "/Line/central",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "circle",
+          "name": "Circle",
+          "uri": "/Line/circle",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "elizabeth",
+          "name": "Elizabeth line",
+          "uri": "/Line/elizabeth",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "hammersmith-city",
+          "name": "Hammersmith & City",
+          "uri": "/Line/hammersmith-city",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "metropolitan",
+          "name": "Metropolitan",
+          "uri": "/Line/metropolitan",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBLST",
+      "name": "Liverpool Street",
+      "lat": 51.51794,
+      "lon": -0.083162
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000201",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "149",
+          "name": "149",
+          "uri": "/Line/149",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "243",
+          "name": "243",
+          "uri": "/Line/243",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "318",
+          "name": "318",
+          "uri": "/Line/318",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "349",
+          "name": "349",
+          "uri": "/Line/349",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "476",
+          "name": "476",
+          "uri": "/Line/476",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "76",
+          "name": "76",
+          "uri": "/Line/76",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n73",
+          "name": "N73",
+          "uri": "/Line/n73",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "victoria",
+          "name": "Victoria",
+          "uri": "/Line/victoria",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBSVS",
+      "name": "Seven Sisters",
+      "lat": 51.582931,
+      "lon": -0.073306
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000249",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "victoria",
+          "name": "Victoria",
+          "uri": "/Line/victoria",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "weaver",
+          "name": "Weaver",
+          "uri": "/Line/weaver",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBWHC",
+      "name": "Walthamstow Central",
+      "lat": 51.582948,
+      "lon": -0.019842
+    }
+  ],
+  "stopPointSequences": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "weaver",
+      "lineName": "Weaver",
+      "direction": "outbound",
+      "branchId": 5,
+      "nextBranchIds": [
+        6,
+        7
+      ],
+      "prevBranchIds": [],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBLST",
+          "stationId": "910GLIVST",
+          "icsId": "1000138",
+          "topMostParentId": "HUBLST",
+          "modes": [
+            "elizabeth-line",
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "1",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "c2c",
+              "name": "c2c",
+              "uri": "/Line/c2c",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "elizabeth",
+              "name": "Elizabeth line",
+              "uri": "/Line/elizabeth",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GLIVST",
+          "name": "London Liverpool Street Rail Station",
+          "lat": 51.517991,
+          "lon": -0.081426
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GBTHNLGR",
+          "icsId": "1001023",
+          "topMostParentId": "910GBTHNLGR",
+          "modes": [
+            "overground",
+            "national-rail"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBTHNLGR",
+          "name": "Bethnal Green Rail Station",
+          "lat": 51.523917,
+          "lon": -0.059568
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCAMHTH",
+          "icsId": "1001044",
+          "topMostParentId": "910GCAMHTH",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCAMHTH",
+          "name": "Cambridge Heath (London) Rail Station",
+          "lat": 51.531973,
+          "lon": -0.057279
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GLONFLDS",
+          "icsId": "1001183",
+          "topMostParentId": "910GLONFLDS",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GLONFLDS",
+          "name": "London Fields Rail Station",
+          "lat": 51.541153,
+          "lon": -0.057753
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHAKNYNM",
+          "icsId": "1001128",
+          "topMostParentId": "910GHAKNYNM",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHAKNYNM",
+          "name": "Hackney Downs Rail Station",
+          "lat": 51.548757,
+          "lon": -0.060819
+        }
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "weaver",
+      "lineName": "Weaver",
+      "direction": "outbound",
+      "branchId": 6,
+      "nextBranchIds": [
+        8,
+        9
+      ],
+      "prevBranchIds": [
+        5
+      ],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHAKNYNM",
+          "icsId": "1001128",
+          "topMostParentId": "910GHAKNYNM",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHAKNYNM",
+          "name": "Hackney Downs Rail Station",
+          "lat": 51.548757,
+          "lon": -0.060819
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GRCTRYRD",
+          "icsId": "1001238",
+          "topMostParentId": "910GRCTRYRD",
+          "modes": [
+            "overground",
+            "national-rail"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GRCTRYRD",
+          "name": "Rectory Road Rail Station",
+          "lat": 51.558502,
+          "lon": -0.068267
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GSTKNWNG",
+          "icsId": "1001273",
+          "topMostParentId": "910GSTKNWNG",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSTKNWNG",
+          "name": "Stoke Newington Rail Station",
+          "lat": 51.565233,
+          "lon": -0.072887
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GSTMFDHL",
+          "icsId": "1001265",
+          "topMostParentId": "910GSTMFDHL",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSTMFDHL",
+          "name": "Stamford Hill Rail Station",
+          "lat": 51.574467,
+          "lon": -0.076682
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBSVS",
+          "stationId": "910GSEVNSIS",
+          "icsId": "1000201",
+          "topMostParentId": "HUBSVS",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSEVNSIS",
+          "name": "Seven Sisters Rail Station",
+          "lat": 51.582268,
+          "lon": -0.07527
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GBRUCGRV",
+          "icsId": "1001040",
+          "topMostParentId": "910GBRUCGRV",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBRUCGRV",
+          "name": "Bruce Grove Rail Station",
+          "lat": 51.593959,
+          "lon": -0.069867
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GWHHRTLA",
+          "icsId": "1001335",
+          "topMostParentId": "910GWHHRTLA",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWHHRTLA",
+          "name": "White Hart Lane Rail Station",
+          "lat": 51.605037,
+          "lon": -0.070914
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GSIVRST",
+          "icsId": "1001250",
+          "topMostParentId": "910GSIVRST",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSIVRST",
+          "name": "Silver Street Rail Station",
+          "lat": 51.614688,
+          "lon": -0.06724
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GEDMNGRN",
+          "icsId": "1001092",
+          "topMostParentId": "910GEDMNGRN",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GEDMNGRN",
+          "name": "Edmonton Green Rail Station",
+          "lat": 51.624929,
+          "lon": -0.061112
+        }
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "weaver",
+      "lineName": "Weaver",
+      "direction": "outbound",
+      "branchId": 8,
+      "nextBranchIds": [],
+      "prevBranchIds": [
+        6
+      ],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GEDMNGRN",
+          "icsId": "1001092",
+          "topMostParentId": "910GEDMNGRN",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GEDMNGRN",
+          "name": "Edmonton Green Rail Station",
+          "lat": 51.624929,
+          "lon": -0.061112
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GSBURY",
+          "icsId": "1001257",
+          "topMostParentId": "910GSBURY",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "5",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSBURY",
+          "name": "Southbury Rail Station",
+          "lat": 51.648705,
+          "lon": -0.052437
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GTURKYST",
+          "icsId": "1001299",
+          "topMostParentId": "910GTURKYST",
+          "modes": [
+            "overground",
+            "national-rail"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "6",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GTURKYST",
+          "name": "Turkey Street Rail Station",
+          "lat": 51.672628,
+          "lon": -0.047217
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GTHBLDSG",
+          "icsId": "1001533",
+          "topMostParentId": "910GTHBLDSG",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "7",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GTHBLDSG",
+          "name": "Theobalds Grove Rail Station",
+          "lat": 51.692457,
+          "lon": -0.034831
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCHESHNT",
+          "icsId": "1001532",
+          "topMostParentId": "910GCHESHNT",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "8",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCHESHNT",
+          "name": "Cheshunt Rail Station",
+          "lat": 51.702876,
+          "lon": -0.02396
+        }
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "weaver",
+      "lineName": "Weaver",
+      "direction": "outbound",
+      "branchId": 9,
+      "nextBranchIds": [],
+      "prevBranchIds": [
+        6
+      ],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GEDMNGRN",
+          "icsId": "1001092",
+          "topMostParentId": "910GEDMNGRN",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GEDMNGRN",
+          "name": "Edmonton Green Rail Station",
+          "lat": 51.624929,
+          "lon": -0.061112
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GBHILLPK",
+          "icsId": "1001042",
+          "topMostParentId": "910GBHILLPK",
+          "modes": [
+            "bus",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "5",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "377",
+              "name": "377",
+              "uri": "/Line/377",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBHILLPK",
+          "name": "Bush Hill Park Rail Station",
+          "lat": 51.641519,
+          "lon": -0.069221
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GENFLDTN",
+          "icsId": "1001101",
+          "topMostParentId": "910GENFLDTN",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "5",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GENFLDTN",
+          "name": "Enfield Town Rail Station",
+          "lat": 51.652026,
+          "lon": -0.079328
+        }
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "weaver",
+      "lineName": "Weaver",
+      "direction": "outbound",
+      "branchId": 7,
+      "nextBranchIds": [],
+      "prevBranchIds": [
+        5
+      ],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHAKNYNM",
+          "icsId": "1001128",
+          "topMostParentId": "910GHAKNYNM",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHAKNYNM",
+          "name": "Hackney Downs Rail Station",
+          "lat": 51.548757,
+          "lon": -0.060819
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCLAPTON",
+          "icsId": "1001070",
+          "topMostParentId": "910GCLAPTON",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2+3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCLAPTON",
+          "name": "Clapton Rail Station",
+          "lat": 51.561644,
+          "lon": -0.057025
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GSTJMSST",
+          "icsId": "1001268",
+          "topMostParentId": "910GSTJMSST",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSTJMSST",
+          "name": "St James Street (London) Rail Station",
+          "lat": 51.580981,
+          "lon": -0.032918
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWHC",
+          "stationId": "910GWLTWCEN",
+          "icsId": "1000249",
+          "topMostParentId": "HUBWHC",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWLTWCEN",
+          "name": "Walthamstow Central Rail Station",
+          "lat": 51.582919,
+          "lon": -0.019815
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GWDST",
+          "icsId": "1001343",
+          "topMostParentId": "910GWDST",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWDST",
+          "name": "Wood Street Rail Station",
+          "lat": 51.58658,
+          "lon": -0.002405
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHGHMSPK",
+          "icsId": "1001150",
+          "topMostParentId": "910GHGHMSPK",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHGHMSPK",
+          "name": "Highams Park Rail Station",
+          "lat": 51.60835,
+          "lon": -0.000222
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCHINGFD",
+          "icsId": "1001063",
+          "topMostParentId": "910GCHINGFD",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "5",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "weaver",
+              "name": "Weaver",
+              "uri": "/Line/weaver",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCHINGFD",
+          "name": "Chingford Rail Station",
+          "lat": 51.633087,
+          "lon": 0.009897
+        }
+      ],
+      "serviceType": "Regular"
+    }
+  ],
+  "orderedLineRoutes": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "London Liverpool Street  &harr;  Chingford ",
+      "naptanIds": [
+        "910GLIVST",
+        "910GBTHNLGR",
+        "910GCAMHTH",
+        "910GLONFLDS",
+        "910GHAKNYNM",
+        "910GCLAPTON",
+        "910GSTJMSST",
+        "910GWLTWCEN",
+        "910GWDST",
+        "910GHGHMSPK",
+        "910GCHINGFD"
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "London Liverpool Street  &harr;  Enfield Town ",
+      "naptanIds": [
+        "910GLIVST",
+        "910GBTHNLGR",
+        "910GCAMHTH",
+        "910GLONFLDS",
+        "910GHAKNYNM",
+        "910GRCTRYRD",
+        "910GSTKNWNG",
+        "910GSTMFDHL",
+        "910GSEVNSIS",
+        "910GBRUCGRV",
+        "910GWHHRTLA",
+        "910GSIVRST",
+        "910GEDMNGRN",
+        "910GBHILLPK",
+        "910GENFLDTN"
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "London Liverpool Street  &harr;  Cheshunt ",
+      "naptanIds": [
+        "910GLIVST",
+        "910GBTHNLGR",
+        "910GCAMHTH",
+        "910GLONFLDS",
+        "910GHAKNYNM",
+        "910GRCTRYRD",
+        "910GSTKNWNG",
+        "910GSTMFDHL",
+        "910GSEVNSIS",
+        "910GBRUCGRV",
+        "910GWHHRTLA",
+        "910GSIVRST",
+        "910GEDMNGRN",
+        "910GSBURY",
+        "910GTURKYST",
+        "910GTHBLDSG",
+        "910GCHESHNT"
+      ],
+      "serviceType": "Regular"
+    }
+  ]
+}

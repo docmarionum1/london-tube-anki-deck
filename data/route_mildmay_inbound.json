@@ -1,0 +1,2994 @@
+{
+  "$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+  "lineId": "mildmay",
+  "lineName": "Mildmay",
+  "direction": "inbound",
+  "isOutboundOnly": false,
+  "mode": "overground",
+  "lineStrings": [
+    "[[[-0.301558,51.463061],[-0.285054,51.477073],[-0.275286,51.491678],[-0.270157,51.499695],[-0.262971,51.508716],[-0.244548,51.532497],[-0.219957,51.534554],[-0.210054,51.540734],[-0.202309,51.545166],[-0.191185,51.547468],[-0.183141,51.550266],[-0.165705,51.55521],[-0.15077,51.555335],[-0.146655,51.546548],[-0.138701,51.541791],[-0.116729,51.543041],[-0.103764,51.546177],[-0.092191,51.548732],[-0.075701,51.548148],[-0.056058,51.547105],[-0.04236,51.547012],[-0.02492,51.54341],[-0.003397,51.541895]]]",
+    "[[[-0.170221,51.464187],[-0.182823,51.474949],[-0.195593,51.487061],[-0.210364,51.497899],[-0.217654,51.505285],[-0.244548,51.532497],[-0.219957,51.534554],[-0.210054,51.540734],[-0.202309,51.545166],[-0.191185,51.547468],[-0.183141,51.550266],[-0.165705,51.55521],[-0.15077,51.555335],[-0.146655,51.546548],[-0.138701,51.541791],[-0.116729,51.543041],[-0.103764,51.546177],[-0.092191,51.548732],[-0.075701,51.548148],[-0.056058,51.547105],[-0.04236,51.547012],[-0.02492,51.54341],[-0.003397,51.541895]]]"
+  ],
+  "stations": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GACTNCTL",
+      "icsId": "1001002",
+      "topMostParentId": "910GACTNCTL",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GACTNCTL",
+      "name": "Acton Central Rail Station",
+      "lat": 51.508716,
+      "lon": -0.262971
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GBRBY",
+      "icsId": "1001038",
+      "topMostParentId": "910GBRBY",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GBRBY",
+      "name": "Brondesbury Rail Station",
+      "lat": 51.545166,
+      "lon": -0.202309
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GBRBYPK",
+      "icsId": "1001039",
+      "topMostParentId": "910GBRBYPK",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GBRBYPK",
+      "name": "Brondesbury Park Rail Station",
+      "lat": 51.540734,
+      "lon": -0.210054
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCLDNNRB",
+      "icsId": "1001043",
+      "topMostParentId": "910GCLDNNRB",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCLDNNRB",
+      "name": "Caledonian Road & Barnsbury Rail Station",
+      "lat": 51.543041,
+      "lon": -0.116729
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCMDNRD",
+      "icsId": "1001045",
+      "topMostParentId": "910GCMDNRD",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCMDNRD",
+      "name": "Camden Road Rail Station",
+      "lat": 51.541791,
+      "lon": -0.138701
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GCNNB",
+      "icsId": "1001048",
+      "topMostParentId": "910GCNNB",
+      "modes": [
+        "bus",
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "236",
+          "name": "236",
+          "uri": "/Line/236",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "windrush",
+          "name": "Windrush",
+          "uri": "/Line/windrush",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GCNNB",
+      "name": "Canonbury Rail Station",
+      "lat": 51.548732,
+      "lon": -0.092191
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GDALSKLD",
+      "icsId": "1001081",
+      "topMostParentId": "910GDALSKLD",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GDALSKLD",
+      "name": "Dalston Kingsland Rail Station",
+      "lat": 51.548148,
+      "lon": -0.075701
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GFNCHLYR",
+      "icsId": "1001109",
+      "topMostParentId": "910GFNCHLYR",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GFNCHLYR",
+      "name": "Finchley Road & Frognal Rail Station",
+      "lat": 51.550266,
+      "lon": -0.183141
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GGOSPLOK",
+      "icsId": "1001119",
+      "topMostParentId": "910GGOSPLOK",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "suffragette",
+          "name": "Suffragette",
+          "uri": "/Line/suffragette",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GGOSPLOK",
+      "name": "Gospel Oak Rail Station",
+      "lat": 51.555335,
+      "lon": -0.15077
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHACKNYC",
+      "icsId": "1001127",
+      "topMostParentId": "910GHACKNYC",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHACKNYC",
+      "name": "Hackney Central Rail Station",
+      "lat": 51.547105,
+      "lon": -0.056058
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHACKNYW",
+      "icsId": "1001129",
+      "topMostParentId": "910GHACKNYW",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHACKNYW",
+      "name": "Hackney Wick Rail Station",
+      "lat": 51.54341,
+      "lon": -0.02492
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHMPSTDH",
+      "icsId": "1001131",
+      "topMostParentId": "910GHMPSTDH",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHMPSTDH",
+      "name": "Hampstead Heath Rail Station",
+      "lat": 51.55521,
+      "lon": -0.165705
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GHOMRTON",
+      "icsId": "1001153",
+      "topMostParentId": "910GHOMRTON",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GHOMRTON",
+      "name": "Homerton Rail Station",
+      "lat": 51.547012,
+      "lon": -0.04236
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GKENR",
+      "icsId": "1001161",
+      "topMostParentId": "910GKENR",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GKENR",
+      "name": "Kensal Rise Rail Station",
+      "lat": 51.534554,
+      "lon": -0.219957
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GKNTSHTW",
+      "icsId": "1001165",
+      "topMostParentId": "910GKNTSHTW",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GKNTSHTW",
+      "name": "Kentish Town West Rail Station",
+      "lat": 51.546548,
+      "lon": -0.146655
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSACTON",
+      "icsId": "1001254",
+      "topMostParentId": "910GSACTON",
+      "modes": [
+        "overground"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "910GSACTON",
+      "name": "South Acton Rail Station",
+      "lat": 51.499695,
+      "lon": -0.270157
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1001069",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "TransportInterchange",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "170",
+          "name": "170",
+          "uri": "/Line/170",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "219",
+          "name": "219",
+          "uri": "/Line/219",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "295",
+          "name": "295",
+          "uri": "/Line/295",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "319",
+          "name": "319",
+          "uri": "/Line/319",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "337",
+          "name": "337",
+          "uri": "/Line/337",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "344",
+          "name": "344",
+          "uri": "/Line/344",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "345",
+          "name": "345",
+          "uri": "/Line/345",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "35",
+          "name": "35",
+          "uri": "/Line/35",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "37",
+          "name": "37",
+          "uri": "/Line/37",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "39",
+          "name": "39",
+          "uri": "/Line/39",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "49",
+          "name": "49",
+          "uri": "/Line/49",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "639",
+          "name": "639",
+          "uri": "/Line/639",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "670",
+          "name": "670",
+          "uri": "/Line/670",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "77",
+          "name": "77",
+          "uri": "/Line/77",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "c3",
+          "name": "C3",
+          "uri": "/Line/c3",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "g1",
+          "name": "G1",
+          "uri": "/Line/g1",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n19",
+          "name": "N19",
+          "uri": "/Line/n19",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n31",
+          "name": "N31",
+          "uri": "/Line/n31",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "south-western-railway",
+          "name": "South Western Railway",
+          "uri": "/Line/south-western-railway",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "windrush",
+          "name": "Windrush",
+          "uri": "/Line/windrush",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBCLJ",
+      "name": "Clapham Junction",
+      "lat": 51.463724,
+      "lon": -0.168997
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000094",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBGUN",
+      "name": "Gunnersbury",
+      "lat": 51.491745,
+      "lon": -0.275276
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000108",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "great-northern",
+          "name": "Great Northern",
+          "uri": "/Line/great-northern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "victoria",
+          "name": "Victoria",
+          "uri": "/Line/victoria",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "windrush",
+          "name": "Windrush",
+          "uri": "/Line/windrush",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBHHY",
+      "name": "Highbury & Islington",
+      "lat": 51.546269,
+      "lon": -0.103538
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1001347",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground"
+      ],
+      "stopType": "TransportInterchange",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBIMP",
+      "name": "Imperial Wharf",
+      "lat": 51.47555,
+      "lon": -0.183084
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000170",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "28",
+          "name": "28",
+          "uri": "/Line/28",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "306",
+          "name": "306",
+          "uri": "/Line/306",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n28",
+          "name": "N28",
+          "uri": "/Line/n28",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBKPA",
+      "name": "Kensington (Olympia)",
+      "lat": 51.496156,
+      "lon": -0.210502
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000125",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "3+4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBKWG",
+      "name": "Kew Gardens",
+      "lat": 51.477069,
+      "lon": -0.285148
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000192",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "4",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "south-western-railway",
+          "name": "South Western Railway",
+          "uri": "/Line/south-western-railway",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBRMD",
+      "name": "Richmond",
+      "lat": 51.463152,
+      "lon": -0.301448
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000203",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "central",
+          "name": "Central",
+          "uri": "/Line/central",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBSPB",
+      "name": "Shepherd's Bush",
+      "lat": 51.504791,
+      "lon": -0.219213
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000226",
+      "modes": [
+        "bus",
+        "dlr",
+        "elizabeth-line",
+        "international-rail",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2/3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "104",
+          "name": "104",
+          "uri": "/Line/104",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "108",
+          "name": "108",
+          "uri": "/Line/108",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "158",
+          "name": "158",
+          "uri": "/Line/158",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "238",
+          "name": "238",
+          "uri": "/Line/238",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "241",
+          "name": "241",
+          "uri": "/Line/241",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "25",
+          "name": "25",
+          "uri": "/Line/25",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "257",
+          "name": "257",
+          "uri": "/Line/257",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "262",
+          "name": "262",
+          "uri": "/Line/262",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "276",
+          "name": "276",
+          "uri": "/Line/276",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "308",
+          "name": "308",
+          "uri": "/Line/308",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "339",
+          "name": "339",
+          "uri": "/Line/339",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "388",
+          "name": "388",
+          "uri": "/Line/388",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "425",
+          "name": "425",
+          "uri": "/Line/425",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "473",
+          "name": "473",
+          "uri": "/Line/473",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "678",
+          "name": "678",
+          "uri": "/Line/678",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "69",
+          "name": "69",
+          "uri": "/Line/69",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "86",
+          "name": "86",
+          "uri": "/Line/86",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "97",
+          "name": "97",
+          "uri": "/Line/97",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "c2c",
+          "name": "c2c",
+          "uri": "/Line/c2c",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "central",
+          "name": "Central",
+          "uri": "/Line/central",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "d8",
+          "name": "D8",
+          "uri": "/Line/d8",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "dlr",
+          "name": "DLR",
+          "uri": "/Line/dlr",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "elizabeth",
+          "name": "Elizabeth line",
+          "uri": "/Line/elizabeth",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "greater-anglia",
+          "name": "Greater Anglia",
+          "uri": "/Line/greater-anglia",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "jubilee",
+          "name": "Jubilee",
+          "uri": "/Line/jubilee",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n205",
+          "name": "N205",
+          "uri": "/Line/n205",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n25",
+          "name": "N25",
+          "uri": "/Line/n25",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n8",
+          "name": "N8",
+          "uri": "/Line/n8",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "n86",
+          "name": "N86",
+          "uri": "/Line/n86",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBSRA",
+      "name": "Stratford",
+      "lat": 51.541508,
+      "lon": -0.00241
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000260",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "district",
+          "name": "District",
+          "uri": "/Line/district",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "southern",
+          "name": "Southern",
+          "uri": "/Line/southern",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBWBP",
+      "name": "West Brompton",
+      "lat": 51.487168,
+      "lon": -0.195593
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000263",
+      "modes": [
+        "bus",
+        "national-rail",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "jubilee",
+          "name": "Jubilee",
+          "uri": "/Line/jubilee",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "thameslink",
+          "name": "Thameslink",
+          "uri": "/Line/thameslink",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBWHD",
+      "name": "West Hampstead",
+      "lat": 51.547533,
+      "lon": -0.191357
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000271",
+      "modes": [
+        "bus",
+        "overground",
+        "tube"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2+3",
+      "lines": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "bakerloo",
+          "name": "Bakerloo",
+          "uri": "/Line/bakerloo",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "lioness",
+          "name": "Lioness",
+          "uri": "/Line/lioness",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+          "id": "mildmay",
+          "name": "Mildmay",
+          "uri": "/Line/mildmay",
+          "type": "Line",
+          "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+          },
+          "routeType": "Unknown",
+          "status": "Unknown"
+        }
+      ],
+      "status": true,
+      "id": "HUBWIJ",
+      "name": "Willesden Junction",
+      "lat": 51.532556,
+      "lon": -0.243006
+    }
+  ],
+  "stopPointSequences": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "mildmay",
+      "lineName": "Mildmay",
+      "direction": "inbound",
+      "branchId": 0,
+      "nextBranchIds": [
+        2
+      ],
+      "prevBranchIds": [],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBRMD",
+          "stationId": "910GRICHMND",
+          "icsId": "1000192",
+          "topMostParentId": "HUBRMD",
+          "modes": [
+            "overground",
+            "national-rail"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "4",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "south-western-railway",
+              "name": "South Western Railway",
+              "uri": "/Line/south-western-railway",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GRICHMND",
+          "name": "Richmond (London) Rail Station",
+          "lat": 51.463061,
+          "lon": -0.301558
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBKWG",
+          "stationId": "910GKEWGRDN",
+          "icsId": "1000125",
+          "topMostParentId": "HUBKWG",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3+4",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GKEWGRDN",
+          "name": "Kew Gardens Rail Station",
+          "lat": 51.477073,
+          "lon": -0.285054
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBGUN",
+          "stationId": "910GGNRSBRY",
+          "icsId": "1000094",
+          "topMostParentId": "HUBGUN",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GGNRSBRY",
+          "name": "Gunnersbury Rail Station",
+          "lat": 51.491678,
+          "lon": -0.275286
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GSACTON",
+          "icsId": "1001254",
+          "topMostParentId": "910GSACTON",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSACTON",
+          "name": "South Acton Rail Station",
+          "lat": 51.499695,
+          "lon": -0.270157
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GACTNCTL",
+          "icsId": "1001002",
+          "topMostParentId": "910GACTNCTL",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "3",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GACTNCTL",
+          "name": "Acton Central Rail Station",
+          "lat": 51.508716,
+          "lon": -0.262971
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWIJ",
+          "stationId": "910GWLSDJHL",
+          "icsId": "1000271",
+          "topMostParentId": "HUBWIJ",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2+3",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWLSDJHL",
+          "name": "Willesden Junction Rail Station",
+          "lat": 51.532497,
+          "lon": -0.244548
+        }
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "mildmay",
+      "lineName": "Mildmay",
+      "direction": "inbound",
+      "branchId": 2,
+      "nextBranchIds": [],
+      "prevBranchIds": [
+        0,
+        1
+      ],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWIJ",
+          "stationId": "910GWLSDJHL",
+          "icsId": "1000271",
+          "topMostParentId": "HUBWIJ",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2+3",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWLSDJHL",
+          "name": "Willesden Junction Rail Station",
+          "lat": 51.532497,
+          "lon": -0.244548
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GKENR",
+          "icsId": "1001161",
+          "topMostParentId": "910GKENR",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GKENR",
+          "name": "Kensal Rise Rail Station",
+          "lat": 51.534554,
+          "lon": -0.219957
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GBRBYPK",
+          "icsId": "1001039",
+          "topMostParentId": "910GBRBYPK",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBRBYPK",
+          "name": "Brondesbury Park Rail Station",
+          "lat": 51.540734,
+          "lon": -0.210054
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GBRBY",
+          "icsId": "1001038",
+          "topMostParentId": "910GBRBY",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GBRBY",
+          "name": "Brondesbury Rail Station",
+          "lat": 51.545166,
+          "lon": -0.202309
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWHD",
+          "stationId": "910GWHMDSTD",
+          "icsId": "1000321",
+          "topMostParentId": "HUBWHD",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWHMDSTD",
+          "name": "West Hampstead Rail Station",
+          "lat": 51.547468,
+          "lon": -0.191185
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GFNCHLYR",
+          "icsId": "1001109",
+          "topMostParentId": "910GFNCHLYR",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GFNCHLYR",
+          "name": "Finchley Road & Frognal Rail Station",
+          "lat": 51.550266,
+          "lon": -0.183141
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHMPSTDH",
+          "icsId": "1001131",
+          "topMostParentId": "910GHMPSTDH",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHMPSTDH",
+          "name": "Hampstead Heath Rail Station",
+          "lat": 51.55521,
+          "lon": -0.165705
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GGOSPLOK",
+          "icsId": "1001119",
+          "topMostParentId": "910GGOSPLOK",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "suffragette",
+              "name": "Suffragette",
+              "uri": "/Line/suffragette",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GGOSPLOK",
+          "name": "Gospel Oak Rail Station",
+          "lat": 51.555335,
+          "lon": -0.15077
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GKNTSHTW",
+          "icsId": "1001165",
+          "topMostParentId": "910GKNTSHTW",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GKNTSHTW",
+          "name": "Kentish Town West Rail Station",
+          "lat": 51.546548,
+          "lon": -0.146655
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCMDNRD",
+          "icsId": "1001045",
+          "topMostParentId": "910GCMDNRD",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCMDNRD",
+          "name": "Camden Road Rail Station",
+          "lat": 51.541791,
+          "lon": -0.138701
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCLDNNRB",
+          "icsId": "1001043",
+          "topMostParentId": "910GCLDNNRB",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCLDNNRB",
+          "name": "Caledonian Road & Barnsbury Rail Station",
+          "lat": 51.543041,
+          "lon": -0.116729
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBHHY",
+          "stationId": "910GHGHI",
+          "icsId": "1000108",
+          "topMostParentId": "HUBHHY",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "great-northern",
+              "name": "Great Northern",
+              "uri": "/Line/great-northern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "windrush",
+              "name": "Windrush",
+              "uri": "/Line/windrush",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHGHI",
+          "name": "Highbury & Islington Rail Station",
+          "lat": 51.546177,
+          "lon": -0.103764
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GCNNB",
+          "icsId": "1001048",
+          "topMostParentId": "910GCNNB",
+          "modes": [
+            "bus",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "236",
+              "name": "236",
+              "uri": "/Line/236",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "windrush",
+              "name": "Windrush",
+              "uri": "/Line/windrush",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCNNB",
+          "name": "Canonbury Rail Station",
+          "lat": 51.548732,
+          "lon": -0.092191
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GDALSKLD",
+          "icsId": "1001081",
+          "topMostParentId": "910GDALSKLD",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GDALSKLD",
+          "name": "Dalston Kingsland Rail Station",
+          "lat": 51.548148,
+          "lon": -0.075701
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHACKNYC",
+          "icsId": "1001127",
+          "topMostParentId": "910GHACKNYC",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHACKNYC",
+          "name": "Hackney Central Rail Station",
+          "lat": 51.547105,
+          "lon": -0.056058
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHOMRTON",
+          "icsId": "1001153",
+          "topMostParentId": "910GHOMRTON",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHOMRTON",
+          "name": "Homerton Rail Station",
+          "lat": 51.547012,
+          "lon": -0.04236
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "stationId": "910GHACKNYW",
+          "icsId": "1001129",
+          "topMostParentId": "910GHACKNYW",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GHACKNYW",
+          "name": "Hackney Wick Rail Station",
+          "lat": 51.54341,
+          "lon": -0.02492
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBSRA",
+          "stationId": "910GSTFD",
+          "icsId": "1000226",
+          "topMostParentId": "HUBSRA",
+          "modes": [
+            "elizabeth-line",
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2/3",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "c2c",
+              "name": "c2c",
+              "uri": "/Line/c2c",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "elizabeth",
+              "name": "Elizabeth line",
+              "uri": "/Line/elizabeth",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "greater-anglia",
+              "name": "Greater Anglia",
+              "uri": "/Line/greater-anglia",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSTFD",
+          "name": "Stratford (London) Rail Station",
+          "lat": 51.541895,
+          "lon": -0.003397
+        }
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
+      "lineId": "mildmay",
+      "lineName": "Mildmay",
+      "direction": "inbound",
+      "branchId": 1,
+      "nextBranchIds": [
+        2
+      ],
+      "prevBranchIds": [],
+      "stopPoint": [
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "910GCLPHMJC",
+          "stationId": "910GCLPHMJ1",
+          "icsId": "1001069",
+          "topMostParentId": "HUBCLJ",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "windrush",
+              "name": "Windrush",
+              "uri": "/Line/windrush",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCLPHMJ1",
+          "name": "Clapham Junction Rail Station",
+          "lat": 51.464187,
+          "lon": -0.170221
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBIMP",
+          "stationId": "910GCSEAH",
+          "icsId": "1001347",
+          "topMostParentId": "HUBIMP",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "southern",
+              "name": "Southern",
+              "uri": "/Line/southern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GCSEAH",
+          "name": "Imperial Wharf Rail Station",
+          "lat": 51.474949,
+          "lon": -0.182823
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWBP",
+          "stationId": "910GWBRMPTN",
+          "icsId": "1000260",
+          "topMostParentId": "HUBWBP",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "southern",
+              "name": "Southern",
+              "uri": "/Line/southern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWBRMPTN",
+          "name": "West Brompton Rail Station",
+          "lat": 51.487061,
+          "lon": -0.195593
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBKPA",
+          "stationId": "910GKENOLYM",
+          "icsId": "1000170",
+          "topMostParentId": "HUBKPA",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "southern",
+              "name": "Southern",
+              "uri": "/Line/southern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GKENOLYM",
+          "name": "Kensington (Olympia) Rail Station",
+          "lat": 51.497899,
+          "lon": -0.210364
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBSPB",
+          "stationId": "910GSHPDSB",
+          "icsId": "1001348",
+          "topMostParentId": "HUBSPB",
+          "modes": [
+            "national-rail",
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2",
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "southern",
+              "name": "Southern",
+              "uri": "/Line/southern",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GSHPDSB",
+          "name": "Shepherds Bush Rail Station",
+          "lat": 51.505285,
+          "lon": -0.217654
+        },
+        {
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "HUBWIJ",
+          "stationId": "910GWLSDJHL",
+          "icsId": "1000271",
+          "topMostParentId": "HUBWIJ",
+          "modes": [
+            "overground"
+          ],
+          "stopType": "NaptanRailStation",
+          "zone": "2+3",
+          "hasDisruption": true,
+          "lines": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "lioness",
+              "name": "Lioness",
+              "uri": "/Line/lioness",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "mildmay",
+              "name": "Mildmay",
+              "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            }
+          ],
+          "status": true,
+          "id": "910GWLSDJHL",
+          "name": "Willesden Junction Rail Station",
+          "lat": 51.532497,
+          "lon": -0.244548
+        }
+      ],
+      "serviceType": "Regular"
+    }
+  ],
+  "orderedLineRoutes": [
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "Clapham Junction  &harr;  Stratford (London) ",
+      "naptanIds": [
+        "910GCLPHMJ1",
+        "910GCSEAH",
+        "910GWBRMPTN",
+        "910GKENOLYM",
+        "910GSHPDSB",
+        "910GWLSDJHL",
+        "910GKENR",
+        "910GBRBYPK",
+        "910GBRBY",
+        "910GWHMDSTD",
+        "910GFNCHLYR",
+        "910GHMPSTDH",
+        "910GGOSPLOK",
+        "910GKNTSHTW",
+        "910GCMDNRD",
+        "910GCLDNNRB",
+        "910GHGHI",
+        "910GCNNB",
+        "910GDALSKLD",
+        "910GHACKNYC",
+        "910GHOMRTON",
+        "910GHACKNYW",
+        "910GSTFD"
+      ],
+      "serviceType": "Regular"
+    },
+    {
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
+      "name": "Richmond (London)  &harr;  Stratford (London) ",
+      "naptanIds": [
+        "910GRICHMND",
+        "910GKEWGRDN",
+        "910GGNRSBRY",
+        "910GSACTON",
+        "910GACTNCTL",
+        "910GWLSDJHL",
+        "910GKENR",
+        "910GBRBYPK",
+        "910GBRBY",
+        "910GWHMDSTD",
+        "910GFNCHLYR",
+        "910GHMPSTDH",
+        "910GGOSPLOK",
+        "910GKNTSHTW",
+        "910GCMDNRD",
+        "910GCLDNNRB",
+        "910GHGHI",
+        "910GCNNB",
+        "910GDALSKLD",
+        "910GHACKNYC",
+        "910GHOMRTON",
+        "910GHACKNYW",
+        "910GSTFD"
+      ],
+      "serviceType": "Regular"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:tfl.gov.uk)",
+      "WebFetch(domain:api-portal.tfl.gov.uk)",
+      "WebFetch(domain:techforum.tfl.gov.uk)"
+    ]
+  }
+}
