@@ -40,6 +40,10 @@ Progressive rounds hide increasing numbers of lines:
 | ... | ... | ... |
 | All Missing | All lines | Stations on 2+ lines |
 
+![1 Missing card example](screenshots/1-missing.png)
+
+![All Missing card example](screenshots/all-missing.png)
+
 All Lines cards go into a single shared deck with random ordering within each round. This prevents predicting the answer from the subdeck name — an early design lesson (see [Design Decisions](#design-decisions)).
 
 ### 2. Sequence
@@ -47,6 +51,8 @@ All Lines cards go into a single shared deck with random ordering within each ro
 **Goal:** Learn the order of stations on each line.
 
 Given a line and two neighboring stations, recall the station in between. Terminal stations show `═ TERMINUS ═`. On the back, the answer station is shown with the full list of lines serving it, teaching interchange knowledge as a bonus.
+
+![Sequence card example](screenshots/sequence.png)
 
 Each card randomly presents stations in either direction on each review (via JavaScript in the Anki template), so you learn the sequence both ways without doubling the card count.
 
@@ -57,6 +63,8 @@ Each card randomly presents stations in either direction on each review (via Jav
 Given a station name, recall which line(s) and branch(es) it's on. Only generated for stations on branch-specific sections (not shared trunk sections).
 
 For example: Mornington Crescent → Northern (Charing Cross branch). Richmond → District (Richmond branch), Mildmay (Richmond branch).
+
+**Note:** The Branch card generation currently has some issues — some cards are incorrect or unnecessary. For example, Aldgate East is incorrectly labeled as being on a branch when it's on the main District line, and Hammersmith & City line (which has no branches) generates unnecessary branch cards. These issues are known and may be addressed in future versions.
 
 ## Deck Structure
 
