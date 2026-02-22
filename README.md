@@ -2,7 +2,7 @@
 
 A Python script that generates a comprehensive Anki flashcard deck for learning the London transport network (Underground, Overground, DLR, Elizabeth line) using live data from the TfL API.
 
-**Output:** `london_transport.apkg` — ~1,934 cards across 19 lines and ~420 stations.
+**Output:** `london_transport.apkg` — ~1,938 cards across 19 lines and ~420 stations.
 
 ## Quick Start
 
@@ -48,7 +48,7 @@ All Lines cards go into a single shared deck with random ordering within each ro
 
 Given a line and two neighboring stations, recall the station in between. Terminal stations show `═ TERMINUS ═`. On the back, the answer station is shown with the full list of lines serving it, teaching interchange knowledge as a bonus.
 
-Branch labels (e.g., "Bank branch") appear only when the card is ambiguous — where the prev, target, or next station is at a branch point. If the neighboring stations already uniquely identify the route, no label is shown.
+Each card randomly presents stations in either direction on each review (via JavaScript in the Anki template), so you learn the sequence both ways without doubling the card count.
 
 ### 3. Branch
 
@@ -71,9 +71,9 @@ London Transport/
 │   └── All Missing      (113)
 ├── 2 Sequence/
 │   ├── Northern          (59)
-│   ├── Victoria          (16)
-│   ├── Bakerloo          (25)
-│   └── ...per line
+│   ├── District          (66)
+│   ├── DLR               (55)
+│   └── ...per line      (632 total)
 └── 3 Branch             (276)
 ```
 
@@ -110,7 +110,9 @@ Both inbound and outbound sequences are fetched for station metadata, but only *
 
 For each line, the inbound route segments are used to build a directed station graph. Each segment is a contiguous section of track returned by the API (e.g., "High Barnet → Finchley Central", "Finchley Central → Camden Town", "Camden Town → Mornington Crescent → Euston").
 
-The graph stores predecessors and successors for each station on each line. This is used to detect branch points (stations with degree > 1) for the ambiguity-based branch labeling on Sequence cards.
+The graph stores predecessors and successors for each station on each line. This is used to detect branch points (stations with degree > 1) for Branch card generation.
+
+Each segment also stores `branchId`, `nextBranchIds`, and `prevBranchIds` from the API response. These connectivity fields are used during Sequence card generation to enumerate all valid route connections at junction stations.
 
 ### Phase 3: Merge Cross-Mode Stations
 
@@ -137,15 +139,13 @@ The fix uses `hubNaptanCode` — a field on each stop point that identifies the 
 
 **Lines cards:** For each station, generate C(N, k) cards for each round k, hiding every combination of k lines. Cards are randomly shuffled within each round (deterministic seed for reproducible builds).
 
-**Sequence cards:** Generated from raw API segments, not from the graph's cross-product. This is important because the graph cross-product at junction stations (e.g., Camden Town with 2 predecessors × 2 successors) would generate invalid cards for paths that don't exist on any actual route. Instead:
+**Sequence cards:** Generated in two passes:
 
-- For each segment, iterate over station positions
-- Interior stations get prev/next from the segment directly
-- Boundary stations are stitched to connecting segments via endpoint matching
-- Fallback to graph adjacency if no connecting segment found
-- TERMINUS only at true line terminals
+*Pass 1 — Segment walk:* For each segment, iterate over station positions. Interior stations get prev/next from the segment directly. Boundary stations are stitched to connecting segments via label-aware endpoint matching — when multiple segments meet at a junction, the stitcher prefers segments with the same branch label to avoid cross-branch errors (e.g., connecting a Bank branch segment to a Charing Cross branch segment at Euston). Fallback to graph adjacency if no connecting segment found. TERMINUS only at true line terminals.
 
-Branch labels use `BRANCH_RULES` — a curated mapping of station name substrings to canonical branch names. A label is shown on a card only when the prev, target, or next station has degree > 1 in the graph (meaning it's at or adjacent to a branch point). This means "Warren Street → [Goodge Street] → Tottenham Court Road" on the Northern line shows no label (unambiguous), but "Mornington Crescent → [Euston] → King's Cross" shows "Bank branch" because Euston has multiple predecessors and successors.
+*Pass 2 — Junction fill:* At junction stations where multiple branches meet (e.g., Camden Town on the Northern line), the first pass only generates cards for the segment pairs it happened to stitch together. The second pass uses the API's `nextBranchIds`/`prevBranchIds` fields to enumerate all valid route connections and generates cards for any missing (prev, station, next) triples. This ensures full coverage — e.g., both "Chalk Farm → Camden Town → Euston" and "Kentish Town → Camden Town → Euston" are generated.
+
+Each card stores both forward and reverse HTML. The Anki template uses JavaScript to randomly pick a direction on each review, so you learn the sequence in both directions without doubling the card count.
 
 **Branch cards:** For each segment with a non-None branch label, all stations on that segment are collected. Each station gets one card showing all the (line, branch) pairs it belongs to.
 
@@ -159,9 +159,11 @@ These decisions emerged from iterative testing:
 
 **Lines cards in a shared deck, not per-line subdecks.** The original design put "hide Northern" cards in the Northern subdeck. But then every card in that subdeck always had the same answer — you'd know it was Northern before even reading the card. Moving all Lines cards into one shared, shuffled deck eliminated this problem.
 
-**Sequence cards from segments, not graph cross-product.** The graph approach generates every (predecessor × successor) pair at junction stations. At Camden Town (2 predecessors × 2 successors = 4 cards), some combinations represent paths that no train actually takes. Segment-based generation only produces cards for station sequences that appear in the API's route data.
+**Sequence cards from segments + API branch connectivity.** Segment-based generation avoids the naive graph cross-product (which would create invalid paths at junctions). A second pass uses the API's `nextBranchIds`/`prevBranchIds` to enumerate all valid route connections at junction stations, ensuring full coverage without generating cards for paths no train takes.
 
-**Branch labels only when ambiguous.** Showing "Charing Cross branch" on every card along the Charing Cross route is noisy — if the neighboring stations are Warren Street and Tottenham Court Road, you already know it's Charing Cross. Labels appear only at or near branch points where the context doesn't disambiguate.
+**No branch labels on Sequence cards.** The neighboring stations already tell you which branch you're on — if the card shows Warren Street and Tottenham Court Road, it's obviously the Charing Cross branch. Branch knowledge is tested separately by Branch cards.
+
+**Bidirectional Sequence cards via JS randomization.** Rather than generating separate forward and reverse cards (which would double the count for the same answer), each card stores both directions and a JavaScript snippet randomly picks one on each review.
 
 **Inbound segments only for the graph.** Using both inbound and outbound creates bidirectional edges (A→B and B→A for every pair), making every line look circular and every station look like a branch point. One direction gives clean, directed paths.
 
@@ -280,8 +282,7 @@ These components work for any transit system without modification:
 
 - `genanki` packaging and note model definitions
 - Combinatorial Lines card generation (all the C(N,k) round logic)
-- Segment-based Sequence card generation with boundary stitching
-- Branch ambiguity detection (graph degree check)
+- Segment-based Sequence card generation with boundary stitching and junction fill
 - Branch card generation from segment labels
 - HTML front/back template structure
 - Deduplication by (line, prev, target, next) tuples
@@ -306,7 +307,8 @@ These components work for any transit system without modification:
 
 ```
 tfl/
-├── generate_deck.py          # Main script
+├── generate_deck.py          # Main script — generates london_transport.apkg
+├── generate_preview.py       # Generates preview.html for browser viewing
 ├── data/                     # Cached API responses (auto-created)
 │   ├── all_lines.json
 │   ├── stops_{line}.json     # 19 files, one per line
@@ -320,78 +322,11 @@ tfl/
 
 ## Previewing Without Anki
 
-To preview all cards in a browser, run the script below. It generates a collapsible HTML page with every card's front and back, organized by subdeck.
+To preview all cards in a browser, run `generate_preview.py`. It generates a collapsible HTML page with every card's front and back, organized by subdeck.
 
 ```bash
 source venv/bin/activate
-python3 << 'PYEOF'
-import sys, io, html as html_mod
-sys.path.insert(0, '.')
-import generate_deck as gd
-from contextlib import redirect_stdout
-from collections import defaultdict
-
-with redirect_stdout(io.StringIO()):
-    stations, line_graph, line_segments = gd.build_database()
-
-type1 = gd.generate_type1_cards(stations)
-type2 = gd.generate_type2_cards(stations, line_graph, line_segments)
-type3 = gd.generate_type3_cards(stations, line_segments)
-all_cards = type1 + type2 + type3
-
-decks = defaultdict(list)
-for subdeck, note in all_cards:
-    decks[subdeck].append(note)
-
-html = '<!DOCTYPE html><html><head><meta charset="utf-8">'
-html += '<meta name="viewport" content="width=device-width, initial-scale=1">'
-html += '<title>London Transport Flashcards</title><style>'
-html += gd.SHARED_CSS
-html += '''
-body { background: #ddd; font-family: -apple-system, sans-serif; }
-h1 { text-align: center; margin: 20px 0; color: #333; }
-.deck-section { max-width: 500px; margin: 10px auto; }
-.deck-header {
-    background: #fff; padding: 12px 16px; border-radius: 8px;
-    cursor: pointer; user-select: none; display: flex;
-    justify-content: space-between; align-items: center;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;
-}
-.deck-header:hover { background: #f0f0f0; }
-.deck-header h2 { margin: 0; font-size: 0.95rem; color: #333; }
-.deck-cards { display: none; }
-.deck-cards.open { display: block; }
-.card-pair { display: flex; gap: 8px; margin: 8px auto; max-width: 500px; }
-.card-side {
-    flex: 1; background: #F5F5F5; padding: 12px; border-radius: 8px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.15); min-width: 0;
-}
-.card-side .label {
-    font-size: 0.7rem; text-transform: uppercase; color: #999;
-    letter-spacing: 1px; margin-bottom: 6px; text-align: center;
-}
-.card-num { text-align: center; font-size: 0.75rem; color: #bbb; margin: 4px 0; }
-'''
-html += '</style></head><body><h1>London Transport Flashcards</h1>'
-for deck_path in sorted(decks):
-    notes = decks[deck_path]
-    short = " / ".join(deck_path.split("::")[1:])
-    html += f'<div class="deck-section">'
-    html += f'<div class="deck-header" onclick="this.nextElementSibling.classList.toggle(\'open\')">'
-    html += f'<h2>{html_mod.escape(short)}</h2><span style="color:#999;font-size:0.85rem">{len(notes)}</span>'
-    html += f'</div><div class="deck-cards">'
-    for i, note in enumerate(notes):
-        html += f'<div class="card-num">#{i+1}</div><div class="card-pair">'
-        html += f'<div class="card-side"><div class="label">Front</div>{note.fields[0]}</div>'
-        html += f'<div class="card-side"><div class="label">Back</div>{note.fields[1]}</div>'
-        html += f'</div>'
-    html += '</div></div>'
-html += '</body></html>'
-
-with open("preview.html", "w") as f:
-    f.write(html)
-print(f"Saved preview.html ({len(all_cards)} cards)")
-PYEOF
+python3 generate_preview.py
 ```
 
 ## Verification

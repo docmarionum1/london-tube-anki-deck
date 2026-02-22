@@ -309,6 +309,35 @@ TYPE1_MODEL = genanki.Model(
     css=SHARED_CSS,
 )
 
+_SEQ_QFMT = """\
+<div id="fwd">{{Front}}</div>
+<div id="rev" style="display:none">{{FrontReverse}}</div>
+<script>
+(function(){
+var r=Math.random()<0.5?'1':'0';
+try{sessionStorage.setItem('_sd',r)}catch(e){}
+window._sd=r;
+if(r==='1'){
+document.getElementById('fwd').style.display='none';
+document.getElementById('rev').style.display=''}
+})();
+</script>"""
+
+_SEQ_AFMT = """\
+<div id="fwd">{{Back}}</div>
+<div id="rev" style="display:none">{{BackReverse}}</div>
+<script>
+(function(){
+var r='0';
+try{r=sessionStorage.getItem('_sd')}catch(e){}
+if(!r)r=window._sd||'0';
+try{sessionStorage.removeItem('_sd')}catch(e){}
+if(r==='1'){
+document.getElementById('fwd').style.display='none';
+document.getElementById('rev').style.display=''}
+})();
+</script>"""
+
 TYPE2_MODEL = genanki.Model(
     TYPE2_MODEL_ID,
     "London Transport - Station Sequence",
@@ -318,11 +347,13 @@ TYPE2_MODEL = genanki.Model(
         {"name": "LineName"},
         {"name": "BranchName"},
         {"name": "AnswerStation"},
+        {"name": "FrontReverse"},
+        {"name": "BackReverse"},
     ],
     templates=[{
         "name": "Station Sequence",
-        "qfmt": "{{Front}}",
-        "afmt": "{{Back}}",
+        "qfmt": _SEQ_QFMT,
+        "afmt": _SEQ_AFMT,
     }],
     css=SHARED_CSS,
 )
@@ -549,7 +580,13 @@ def build_database():
                 if len(seg_stops) >= 2:
                     if direction == "inbound":
                         seg_name = seq.get("name", "").strip()
-                        inbound_segments.append({"stops": seg_stops, "name": seg_name})
+                        inbound_segments.append({
+                            "stops": seg_stops,
+                            "name": seg_name,
+                            "branchId": seq.get("branchId"),
+                            "nextBranchIds": seq.get("nextBranchIds", []),
+                            "prevBranchIds": seq.get("prevBranchIds", []),
+                        })
 
         # If no inbound segments, fall back to outbound (reversed)
         if not inbound_segments:
@@ -566,7 +603,13 @@ def build_database():
                             seg_stops.append(nid)
                     if len(seg_stops) >= 2:
                         seg_name = seq.get("name", "").strip()
-                        inbound_segments.append({"stops": list(reversed(seg_stops)), "name": seg_name})
+                        inbound_segments.append({
+                            "stops": list(reversed(seg_stops)),
+                            "name": seg_name,
+                            "branchId": seq.get("branchId"),
+                            "nextBranchIds": seq.get("prevBranchIds", []),
+                            "prevBranchIds": seq.get("nextBranchIds", []),
+                        })
 
         for seg in inbound_segments:
             stops = seg["stops"]
@@ -876,7 +919,9 @@ def generate_type2_cards(stations, line_graph, line_segments):
             continue
         line_name = LINE_INFO[line_id]["name"]
         subdeck = f"London Transport::2 Sequence::{line_name}"
-        has_branches = len(segments) > 1
+        # Precompute branch labels for all segments on this line
+        seg_labels = [_label_segment(line_id, seg["stops"], stations)
+                      for seg in segments]
 
         # Build segment connection map: which segments connect at endpoints
         # seg_end -> list of (seg_idx, position_in_that_seg) for stitching
@@ -891,9 +936,7 @@ def generate_type2_cards(stations, line_graph, line_segments):
             if len(stops) < 2:
                 continue
 
-            # Derive canonical branch label from segment stations.
-            # Shared trunk sections (no unique branch stations) get no label.
-            branch_label = _label_segment(line_id, stops, stations)
+            branch_label = seg_labels[si]
 
             for i, nid in enumerate(stops):
                 sdata = stations.get(nid)
@@ -906,7 +949,8 @@ def generate_type2_cards(stations, line_graph, line_segments):
                 else:
                     # First station in segment — stitch to connecting segment
                     prev_nid = _find_stitched_neighbor(
-                        nid, si, "before", segments, end_to_seg, graph)
+                        nid, si, "before", segments, end_to_seg, graph,
+                        seg_labels)
 
                 # Next station
                 if i < len(stops) - 1:
@@ -914,7 +958,8 @@ def generate_type2_cards(stations, line_graph, line_segments):
                 else:
                     # Last station in segment — stitch to connecting segment
                     next_nid = _find_stitched_neighbor(
-                        nid, si, "after", segments, end_to_seg, graph)
+                        nid, si, "after", segments, end_to_seg, graph,
+                        seg_labels)
 
                 dedup_key = (line_id,
                              prev_nid or "TERMINUS",
@@ -928,36 +973,117 @@ def generate_type2_cards(stations, line_graph, line_segments):
                 next_name = stations[next_nid]["name"] if next_nid and next_nid in stations else None
                 answer_name = sdata["name"]
 
-                # Only show branch label when the context is ambiguous:
-                # prev, target, or next is at a branch point (degree > 1).
-                card_label = None
-                if branch_label:
-                    target_adj = graph.get(nid, {})
-                    prev_succs = len(graph.get(prev_nid, {}).get("succ", set())) if prev_nid else 0
-                    next_preds = len(graph.get(next_nid, {}).get("pred", set())) if next_nid else 0
-                    target_preds = len(target_adj.get("pred", set()))
-                    target_succs = len(target_adj.get("succ", set()))
-                    if prev_succs > 1 or next_preds > 1 or target_preds > 1 or target_succs > 1:
-                        card_label = branch_label
-
-                front_html = _type2_front_html(line_id, card_label, prev_name, next_name)
+                front_html = _type2_front_html(line_id, None, prev_name, next_name)
                 back_html = _type2_back_html(
-                    line_id, card_label, prev_name, next_name,
+                    line_id, None, prev_name, next_name,
+                    answer_name, sdata, stations
+                )
+                front_rev = _type2_front_html(line_id, None, next_name, prev_name)
+                back_rev = _type2_back_html(
+                    line_id, None, next_name, prev_name,
                     answer_name, sdata, stations
                 )
 
                 guid_key = f"t2_{line_id}_{prev_nid or 'T'}_{nid}_{next_nid or 'T'}"
                 note = genanki.Note(
                     model=TYPE2_MODEL,
-                    fields=[front_html, back_html, line_name, branch_label or "", answer_name],
+                    fields=[front_html, back_html,
+                            line_name, branch_label or "", answer_name,
+                            front_rev, back_rev],
                     guid=genanki.guid_for(guid_key),
                 )
                 cards.append((subdeck, note))
 
+    # Second pass: fill in missing combinations at junction stations.
+    # The first pass generates one card per segment boundary via stitching,
+    # but at junctions where multiple branches meet, some valid (prev, target,
+    # next) triples are missed.  Use the API's nextBranchIds/prevBranchIds
+    # to enumerate all valid connections.
+    for line_id in LINE_ORDER:
+        segments = line_segments.get(line_id, [])
+        graph = line_graph.get(line_id, {})
+        if not segments:
+            continue
+        line_name = LINE_INFO[line_id]["name"]
+        subdeck = f"London Transport::2 Sequence::{line_name}"
+
+        # Map branchId -> segment index
+        branch_to_seg = {}
+        for si, seg in enumerate(segments):
+            bid = seg.get("branchId")
+            if bid is not None:
+                branch_to_seg[bid] = si
+
+        # Find segment endpoints
+        end_to_seg = defaultdict(list)
+        for si, seg in enumerate(segments):
+            stops = seg["stops"]
+            end_to_seg[stops[0]].append((si, "first"))
+            end_to_seg[stops[-1]].append((si, "last"))
+
+        for nid, connections in end_to_seg.items():
+            sdata = stations.get(nid)
+            if not sdata:
+                continue
+
+            ending = [(si, segments[si]) for si, pos in connections if pos == "last"]
+            starting = [(si, segments[si]) for si, pos in connections if pos == "first"]
+
+            if len(ending) <= 1 and len(starting) <= 1:
+                continue  # not a multi-way junction
+
+            # For each valid (ending_seg → starting_seg) pair per API connectivity,
+            # generate a card for (prev_station, junction, next_station).
+            for esi, eseg in ending:
+                next_bids = eseg.get("nextBranchIds", [])
+                if not next_bids:
+                    continue
+                prev_nid = eseg["stops"][-2] if len(eseg["stops"]) >= 2 else None
+
+                for ssi, sseg in starting:
+                    s_bid = sseg.get("branchId")
+                    if s_bid not in next_bids:
+                        continue  # not a valid route connection
+                    next_nid = sseg["stops"][1] if len(sseg["stops"]) >= 2 else None
+
+                    dedup_key = (line_id,
+                                 prev_nid or "TERMINUS",
+                                 nid,
+                                 next_nid or "TERMINUS")
+                    if dedup_key in seen:
+                        continue
+                    seen.add(dedup_key)
+
+                    prev_name = stations[prev_nid]["name"] if prev_nid and prev_nid in stations else None
+                    next_name = stations[next_nid]["name"] if next_nid and next_nid in stations else None
+                    answer_name = sdata["name"]
+
+                    front_html = _type2_front_html(line_id, None, prev_name, next_name)
+                    back_html = _type2_back_html(
+                        line_id, None, prev_name, next_name,
+                        answer_name, sdata, stations
+                    )
+                    front_rev = _type2_front_html(line_id, None, next_name, prev_name)
+                    back_rev = _type2_back_html(
+                        line_id, None, next_name, prev_name,
+                        answer_name, sdata, stations
+                    )
+
+                    guid_key = f"t2_{line_id}_{prev_nid or 'T'}_{nid}_{next_nid or 'T'}"
+                    note = genanki.Note(
+                        model=TYPE2_MODEL,
+                        fields=[front_html, back_html,
+                                line_name, "", answer_name,
+                                front_rev, back_rev],
+                        guid=genanki.guid_for(guid_key),
+                    )
+                    cards.append((subdeck, note))
+
     return cards
 
 
-def _find_stitched_neighbor(nid, seg_idx, direction, segments, end_to_seg, graph):
+def _find_stitched_neighbor(nid, seg_idx, direction, segments, end_to_seg, graph,
+                            seg_labels=None):
     """
     At a segment boundary, find the neighbor from a connecting segment.
 
@@ -969,40 +1095,77 @@ def _find_stitched_neighbor(nid, seg_idx, direction, segments, end_to_seg, graph
     Look for another segment whose first station == nid, and return
     that segment's second station.
 
+    When seg_labels is provided and multiple candidates exist, uses branch
+    label matching to pick the correct connecting segment — avoiding
+    cross-branch stitching at junction stations like Euston (Northern line).
+
     Falls back to the graph adjacency if no connecting segment found.
     Returns None for true termini.
     """
     connections = end_to_seg.get(nid, [])
 
     if direction == "before":
-        # Find a segment that ENDS at nid (and isn't our own segment)
-        for other_idx, pos in connections:
-            if other_idx != seg_idx and pos == "last":
-                other_stops = segments[other_idx]["stops"]
-                if len(other_stops) >= 2:
-                    return other_stops[-2]  # second-to-last
-        # Fall back to graph predecessor
-        preds = graph.get(nid, {}).get("pred", set())
+        wanted_pos = "last"
+        opposite_pos = "first"
+        get_neighbor = lambda stops: stops[-2]
+    else:
+        wanted_pos = "first"
+        opposite_pos = "last"
+        get_neighbor = lambda stops: stops[1]
+
+    # Collect all candidate connecting segments
+    candidates = []
+    for other_idx, pos in connections:
+        if other_idx != seg_idx and pos == wanted_pos:
+            other_stops = segments[other_idx]["stops"]
+            if len(other_stops) >= 2:
+                candidates.append((other_idx, get_neighbor(other_stops)))
+
+    if not candidates:
+        # Fall back to graph adjacency
+        key = "pred" if direction == "before" else "succ"
+        neighbors = graph.get(nid, {}).get(key, set())
         seg_stops = set(segments[seg_idx]["stops"])
-        external_preds = preds - seg_stops
-        if external_preds:
-            return sorted(external_preds)[0]
+        external = neighbors - seg_stops
+        if external:
+            return sorted(external)[0]
         return None  # true terminus
 
-    else:  # direction == "after"
-        # Find a segment that STARTS at nid (and isn't our own segment)
-        for other_idx, pos in connections:
-            if other_idx != seg_idx and pos == "first":
-                other_stops = segments[other_idx]["stops"]
-                if len(other_stops) >= 2:
-                    return other_stops[1]  # second station
-        # Fall back to graph successor
-        succs = graph.get(nid, {}).get("succ", set())
-        seg_stops = set(segments[seg_idx]["stops"])
-        external_succs = succs - seg_stops
-        if external_succs:
-            return sorted(external_succs)[0]
-        return None  # true terminus
+    if len(candidates) == 1:
+        return candidates[0][1]
+
+    # Multiple candidates — use branch labels to disambiguate.
+    if seg_labels:
+        my_label = seg_labels[seg_idx]
+
+        # 1. Direct label match: prefer candidate with same branch label
+        if my_label:
+            for cand_idx, cand_station in candidates:
+                if seg_labels[cand_idx] == my_label:
+                    return cand_station
+
+        # 2. Elimination: find segments on the opposite side of this junction
+        #    that have labels, and remove candidates they "claim" by matching
+        #    label.  E.g. at Euston, seg 2 (CC, ending) claims seg 3 (CC,
+        #    starting), leaving seg 6 (Bank) for the unlabelled seg 5.
+        opposite_segs = [
+            (oi, seg_labels[oi])
+            for oi, op in connections
+            if oi != seg_idx and op == opposite_pos
+        ]
+        claimed = set()
+        for _, opp_label in opposite_segs:
+            if opp_label:
+                for cand_idx, _ in candidates:
+                    if seg_labels[cand_idx] == opp_label and cand_idx not in claimed:
+                        claimed.add(cand_idx)
+                        break
+        unclaimed = [(ci, cs) for ci, cs in candidates if ci not in claimed]
+        if len(unclaimed) == 1:
+            return unclaimed[0][1]
+
+    # Fall back to first candidate (original behaviour)
+    return candidates[0][1]
 
 
 # ---------------------------------------------------------------------------
