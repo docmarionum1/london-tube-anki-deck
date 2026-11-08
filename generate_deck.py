@@ -121,7 +121,6 @@ BRANCH_RULES = {
         ({"Crystal Palace"}, "Crystal Palace branch"),
         ({"Clapham Junction"}, "Clapham Junction branch"),
         ({"New Cross ELL"}, "New Cross branch"),
-        ({"London Bridge"}, "London Bridge branch"),
     ],
     "mildmay": [
         ({"Richmond"}, "Richmond branch"),

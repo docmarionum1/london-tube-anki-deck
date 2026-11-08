@@ -9,8 +9,7 @@
     "[[[-0.102585,51.378428],[-0.075221,51.397019],[-0.065886,51.412153],[-0.06084,51.417555],[-0.054244,51.427248],[-0.053157,51.43928],[-0.045505,51.449989],[-0.037537,51.464649],[-0.040399,51.475128],[-0.047519,51.493196],[-0.04972,51.49799],[-0.052048,51.500817],[-0.055931,51.504388],[-0.056934,51.511284],[-0.059757,51.519469],[-0.075246,51.523375],[-0.075681,51.531512],[-0.075666,51.538705],[-0.075137,51.546116],[-0.092191,51.548732],[-0.103764,51.546177]]]",
     "[[[-0.170221,51.464187],[-0.13852,51.470216],[-0.132522,51.465481],[-0.089361,51.468203],[-0.069414,51.470034],[-0.057313,51.473566],[-0.047519,51.493196],[-0.04972,51.49799],[-0.052048,51.500817],[-0.055931,51.504388],[-0.056934,51.511284],[-0.059757,51.519469],[-0.075246,51.523375],[-0.075681,51.531512],[-0.075666,51.538705],[-0.075137,51.546116],[-0.092191,51.548732],[-0.103764,51.546177]]]",
     "[[[-0.07261,51.418109],[-0.054244,51.427248],[-0.053157,51.43928],[-0.045505,51.449989],[-0.037537,51.464649],[-0.040399,51.475128],[-0.047519,51.493196],[-0.04972,51.49799],[-0.052048,51.500817],[-0.055931,51.504388],[-0.056934,51.511284],[-0.059757,51.519469],[-0.075246,51.523375],[-0.075681,51.531512],[-0.075666,51.538705],[-0.075137,51.546116],[-0.092191,51.548732],[-0.103764,51.546177]]]",
-    "[[[-0.032441,51.476344],[-0.047519,51.493196],[-0.04972,51.49799],[-0.052048,51.500817],[-0.055931,51.504388],[-0.056934,51.511284],[-0.059757,51.519469],[-0.075246,51.523375],[-0.075681,51.531512],[-0.075666,51.538705],[-0.075137,51.546116],[-0.092191,51.548732],[-0.103764,51.546177]]]",
-    "[[[-0.102585,51.378428],[-0.075221,51.397019],[-0.065886,51.412153],[-0.06084,51.417555],[-0.054244,51.427248],[-0.053157,51.43928],[-0.045505,51.449989],[-0.037537,51.464649],[-0.040399,51.475128],[-0.086092,51.505019]]]"
+    "[[[-0.032441,51.476344],[-0.047519,51.493196],[-0.04972,51.49799],[-0.052048,51.500817],[-0.055931,51.504388],[-0.056934,51.511284],[-0.059757,51.519469],[-0.075246,51.523375],[-0.075681,51.531512],[-0.075666,51.538705],[-0.075137,51.546116],[-0.092191,51.548732],[-0.103764,51.546177]]]"
   ],
   "stations": [
     {
@@ -135,24 +134,11 @@
       "icsId": "1001048",
       "topMostParentId": "910GCNNB",
       "modes": [
-        "bus",
         "overground"
       ],
       "stopType": "NaptanRailStation",
       "zone": "2",
       "lines": [
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "236",
-          "name": "236",
-          "uri": "/Line/236",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
         {
           "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
           "id": "mildmay",
@@ -628,8 +614,8 @@
       "icsId": "1001225",
       "topMostParentId": "910GPENEW",
       "modes": [
-        "national-rail",
-        "overground"
+        "overground",
+        "national-rail"
       ],
       "stopType": "NaptanRailStation",
       "zone": "4",
@@ -1203,265 +1189,6 @@
       "name": "Highbury & Islington",
       "lat": 51.546269,
       "lon": -0.103538
-    },
-    {
-      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
-      "icsId": "1000139",
-      "modes": [
-        "bus",
-        "national-rail",
-        "tube",
-        "overground"
-      ],
-      "stopType": "TransportInterchange",
-      "zone": "1",
-      "lines": [
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "133",
-          "name": "133",
-          "uri": "/Line/133",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "141",
-          "name": "141",
-          "uri": "/Line/141",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "149",
-          "name": "149",
-          "uri": "/Line/149",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "17",
-          "name": "17",
-          "uri": "/Line/17",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "21",
-          "name": "21",
-          "uri": "/Line/21",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "344",
-          "name": "344",
-          "uri": "/Line/344",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "35",
-          "name": "35",
-          "uri": "/Line/35",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "388",
-          "name": "388",
-          "uri": "/Line/388",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "43",
-          "name": "43",
-          "uri": "/Line/43",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "47",
-          "name": "47",
-          "uri": "/Line/47",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "jubilee",
-          "name": "Jubilee",
-          "uri": "/Line/jubilee",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "n133",
-          "name": "N133",
-          "uri": "/Line/n133",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "n199",
-          "name": "N199",
-          "uri": "/Line/n199",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "n21",
-          "name": "N21",
-          "uri": "/Line/n21",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "n343",
-          "name": "N343",
-          "uri": "/Line/n343",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "northern",
-          "name": "Northern",
-          "uri": "/Line/northern",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "southeastern",
-          "name": "Southeastern",
-          "uri": "/Line/southeastern",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "southern",
-          "name": "Southern",
-          "uri": "/Line/southern",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "thameslink",
-          "name": "Thameslink",
-          "uri": "/Line/thameslink",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-          "id": "windrush",
-          "name": "Windrush",
-          "uri": "/Line/windrush",
-          "type": "Line",
-          "crowding": {
-            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-          },
-          "routeType": "Unknown",
-          "status": "Unknown"
-        }
-      ],
-      "status": true,
-      "id": "HUBLBG",
-      "name": "London Bridge",
-      "lat": 51.505881,
-      "lon": -0.086807
     },
     {
       "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
@@ -2309,7 +2036,7 @@
       "direction": "inbound",
       "branchId": 0,
       "nextBranchIds": [
-        6
+        4
       ],
       "prevBranchIds": [],
       "stopPoint": [
@@ -2474,8 +2201,8 @@
           "icsId": "1001225",
           "topMostParentId": "910GPENEW",
           "modes": [
-            "national-rail",
-            "overground"
+            "overground",
+            "national-rail"
           ],
           "stopType": "NaptanRailStation",
           "zone": "4",
@@ -2563,9 +2290,8 @@
       "lineId": "windrush",
       "lineName": "Windrush",
       "direction": "inbound",
-      "branchId": 6,
+      "branchId": 4,
       "nextBranchIds": [
-        4,
         5
       ],
       "prevBranchIds": [
@@ -2789,66 +2515,6 @@
           "name": "New Cross Gate Rail Station",
           "lat": 51.475128,
           "lon": -0.040399
-        }
-      ],
-      "serviceType": "Regular"
-    },
-    {
-      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
-      "lineId": "windrush",
-      "lineName": "Windrush",
-      "direction": "inbound",
-      "branchId": 4,
-      "nextBranchIds": [
-        7
-      ],
-      "prevBranchIds": [
-        6
-      ],
-      "stopPoint": [
-        {
-          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
-          "parentId": "HUBNXG",
-          "stationId": "910GNEWXGTE",
-          "icsId": "1000156",
-          "topMostParentId": "HUBNXG",
-          "modes": [
-            "national-rail",
-            "overground"
-          ],
-          "stopType": "NaptanRailStation",
-          "zone": "2",
-          "lines": [
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "southern",
-              "name": "Southern",
-              "uri": "/Line/southern",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            },
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "windrush",
-              "name": "Windrush",
-              "uri": "/Line/windrush",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            }
-          ],
-          "status": true,
-          "id": "910GNEWXGTE",
-          "name": "New Cross Gate Rail Station",
-          "lat": 51.475128,
-          "lon": -0.040399
         },
         {
           "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
@@ -2860,6 +2526,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -2888,7 +2555,7 @@
       "lineId": "windrush",
       "lineName": "Windrush",
       "direction": "inbound",
-      "branchId": 7,
+      "branchId": 5,
       "nextBranchIds": [],
       "prevBranchIds": [
         4,
@@ -2906,6 +2573,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -2937,6 +2605,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3302,24 +2971,11 @@
           "icsId": "1001048",
           "topMostParentId": "910GCNNB",
           "modes": [
-            "bus",
             "overground"
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
           "lines": [
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "236",
-              "name": "236",
-              "uri": "/Line/236",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            },
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
               "id": "mildmay",
@@ -3417,7 +3073,7 @@
       "direction": "inbound",
       "branchId": 3,
       "nextBranchIds": [
-        7
+        5
       ],
       "prevBranchIds": [],
       "stopPoint": [
@@ -3428,15 +3084,29 @@
           "icsId": "1001069",
           "topMostParentId": "HUBCLJ",
           "modes": [
+            "national-rail",
             "overground"
           ],
           "stopType": "NaptanRailStation",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
               "id": "mildmay",
               "name": "Mildmay",
               "uri": "/Line/mildmay",
+              "type": "Line",
+              "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+              },
+              "routeType": "Unknown",
+              "status": "Unknown"
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+              "id": "south-western-railway",
+              "name": "South Western Railway",
+              "uri": "/Line/south-western-railway",
               "type": "Line",
               "crowding": {
                 "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
@@ -3473,6 +3143,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3503,6 +3174,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3534,6 +3206,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3589,6 +3262,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3656,6 +3330,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3698,6 +3373,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3728,7 +3404,7 @@
       "direction": "inbound",
       "branchId": 1,
       "nextBranchIds": [
-        6
+        4
       ],
       "prevBranchIds": [],
       "stopPoint": [
@@ -3739,12 +3415,11 @@
           "icsId": "1001078",
           "topMostParentId": "HUBCYP",
           "modes": [
-            "national-rail",
-            "overground"
+            "overground",
+            "national-rail"
           ],
           "stopType": "NaptanRailStation",
           "zone": "3+4",
-          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3831,7 +3506,7 @@
       "direction": "inbound",
       "branchId": 2,
       "nextBranchIds": [
-        7
+        5
       ],
       "prevBranchIds": [],
       "stopPoint": [
@@ -3889,6 +3564,7 @@
           ],
           "stopType": "NaptanRailStation",
           "zone": "2",
+          "hasDisruption": true,
           "lines": [
             {
               "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
@@ -3908,132 +3584,6 @@
           "name": "Surrey Quays Rail Station",
           "lat": 51.493196,
           "lon": -0.047519
-        }
-      ],
-      "serviceType": "Regular"
-    },
-    {
-      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities",
-      "lineId": "windrush",
-      "lineName": "Windrush",
-      "direction": "inbound",
-      "branchId": 5,
-      "nextBranchIds": [],
-      "prevBranchIds": [
-        6
-      ],
-      "stopPoint": [
-        {
-          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
-          "parentId": "HUBNXG",
-          "stationId": "910GNEWXGTE",
-          "icsId": "1000156",
-          "topMostParentId": "HUBNXG",
-          "modes": [
-            "national-rail",
-            "overground"
-          ],
-          "stopType": "NaptanRailStation",
-          "zone": "2",
-          "lines": [
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "southern",
-              "name": "Southern",
-              "uri": "/Line/southern",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            },
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "windrush",
-              "name": "Windrush",
-              "uri": "/Line/windrush",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            }
-          ],
-          "status": true,
-          "id": "910GNEWXGTE",
-          "name": "New Cross Gate Rail Station",
-          "lat": 51.475128,
-          "lon": -0.040399
-        },
-        {
-          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
-          "parentId": "HUBLBG",
-          "stationId": "910GLNDNBDC",
-          "icsId": "1000139",
-          "topMostParentId": "HUBLBG",
-          "modes": [
-            "national-rail",
-            "overground"
-          ],
-          "stopType": "NaptanRailStation",
-          "zone": "1",
-          "lines": [
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "southeastern",
-              "name": "Southeastern",
-              "uri": "/Line/southeastern",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            },
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "southern",
-              "name": "Southern",
-              "uri": "/Line/southern",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            },
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "thameslink",
-              "name": "Thameslink",
-              "uri": "/Line/thameslink",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            },
-            {
-              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
-              "id": "windrush",
-              "name": "Windrush",
-              "uri": "/Line/windrush",
-              "type": "Line",
-              "crowding": {
-                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
-              },
-              "routeType": "Unknown",
-              "status": "Unknown"
-            }
-          ],
-          "status": true,
-          "id": "910GLNDNBDC",
-          "name": "London Bridge Rail Station",
-          "lat": 51.505019,
-          "lon": -0.086092
         }
       ],
       "serviceType": "Regular"
@@ -4107,23 +3657,6 @@
         "910GDALS",
         "910GCNNB",
         "910GHGHI"
-      ],
-      "serviceType": "Regular"
-    },
-    {
-      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities",
-      "name": "West Croydon  &harr;  London Bridge ",
-      "naptanIds": [
-        "910GWCROYDN",
-        "910GNORWDJ",
-        "910GANERLEY",
-        "910GPENEW",
-        "910GSYDENHM",
-        "910GFORESTH",
-        "910GHONROPK",
-        "910GBROCKLY",
-        "910GNEWXGTE",
-        "910GLNDNBDC"
       ],
       "serviceType": "Regular"
     },
